@@ -25,6 +25,7 @@ import Script from 'next/script'
 import TimelineMobile from '../components/Timeline/TimelineMobile'
 // import Schedule from '../components/Timeline/Schedule'
 // import Script from 'next/script'
+import PrizesSection from '../components/PrizesSections';
 
 export default function Home() {
 
@@ -32,16 +33,21 @@ export default function Home() {
     <div className=''>
        <Script src="https://apply.devfolio.co/v2/sdk.js" defer async    ></Script>
        <MarqueeHack />
-      <Head>
-        <title>HackMOL5.0</title>
-        <meta name='viewport' content='width=device-width, initial-scale=1' />
-      </Head>
+       <Head>
+  <title>HackMOL5.0</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1' />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet" />
+</Head>
+
 
       <NavBar />
       
       <Banner />
       {/* <Banner2 /> */}
       <About />
+      <PrizesSection/>
       {/* <Merch /> */}
 
       {/* <Schedule /> */}
@@ -55,6 +61,7 @@ export default function Home() {
 
       <Tracks/>
       
+      
       <RulesNew />
       <Team />
 
@@ -67,6 +74,7 @@ export default function Home() {
       {/* <FAQ></FAQ> */}
       <Footer></Footer>
       <FooterLinks></FooterLinks>
+      <PrizesSection/>
     </div>
   )
 }

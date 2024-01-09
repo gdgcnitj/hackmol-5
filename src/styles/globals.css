@@ -11,15 +11,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* // tailwind.css or your custom CSS file */
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=VT323&display=swap');
 
-html,
-body {
-  /* top: 0; */
-  padding: 0;
-  margin: 0;
-  font-family: 'Plus Jakarta Sans', sans-serif;
-  scroll-behavior: smooth;
+
+@font-face {
+  font-family: 'Minecrafter';
+  src: url('https://fonts.googleapis.com/css2?family=Caveat&family=VT323&display=swap') ;
 }
+
+.font-minecraft {
+  font-family: 'Minercraft', sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Caveat&family=VT323&display=swap') ;
+}
+
+
+
 
 .accent-text{
   font-family: 'Krona One', sans-serif;
@@ -58,6 +65,17 @@ a {
 * {
   top: 0;
   box-sizing: border-box;
+}
+
+.astyle{
+  color: var(--Black, #1F1F1F);
+
+/* Space Grotesk Regular/sm */
+font-family: Space Grotesk;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 125%; /* 17.5px */
 }
 
 
@@ -755,4 +773,40 @@ nav.navbar.scrolled .header-name {
 .solana{
   width: 380px;
 }
+}
+
+
+.astyle{
+  color: var(--Black, #1F1F1F);
+
+/* Space Grotesk Regular/sm */
+font-family: Space Grotesk;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 125%; /* 17.5px */
+}
+.astyle1{
+color: var(--Black, #1F1F1F);
+font-family: Space Grotesk;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 171%; /* 27.36px */
+
+}
+
+.aastyle{
+  color: var(--white, #FFF);
+  font-family: 'VT323', monospace;
+  font-size: 24.932px;
+  font-style: bold;
+  font-weight: 400;
+  line-height: normal;
+  font-family: 'VT323', monospace;
+}
+
+
+ol{
+  list-style-type: decimal;
 }

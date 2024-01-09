@@ -1,0 +1,72 @@
+import React from 'react'
+
+
+const PrizesSection = (props) => {
+  return (
+    <div className="PrizesSection w-[1280px] h-[832px] relative bg-stone-900">
+    
+    <div className="Heading w-[300px] h-[59px] left-[490px] top-[40px] absolute text-center text-white text-7xl font-normal font-['Minecrafter'] leading-[72px]">PRIZES</div>
+    <div className="PrizesContainer left-[132.36px] top-[139px] absolute justify-center items-end gap-[50px] inline-flex">
+      <div className="NdPrize w-[268.62px] h-[499.52px] relative">
+        <div className="Picture w-[268.27px] h-[116.64px] left-0 top-0 absolute bg-gradient-to-tl from-sky-400 to-sky-400">
+          <img className="Picture w-[268px] h-[169px] left-0 top-[-52px] absolute" src="Picture.png" />
+        </div>
+        <img className="Bg w-[266px] h-[381px] left-[2.62px] top-[118.52px] absolute" src="Picture.png" />
+        <div className="NdPrizeContainer w-[243.49px] h-[360.86px] left-[12.40px] top-[128.67px] absolute bg-white">
+          <div className="GoodiesDescription w-[226px] left-[6.61px] top-[73.67px] absolute text-stone-900 text-sm font-normal font-['Space Grotesk'] leading-[21px]">Goodies<br/>Geeks for Geeks 800/- INR coupon on all courses<br/>Echo-ar Free premium tier services<br/>Online Mock Interviews from Interview Buddy<br/>Lifetime upgrades of Taskade Unlimited<br/>1 Year of 1Passwords Families<br/>3 months of Draftbit Starter<br/>Sashido Credits<br/>30 Days Free Receipt Credits</div>
+          <img className="HeadingBg w-[117px] h-[38px] left-[58.61px] top-[13.33px] absolute" src="Picture.png" />
+          <div className="Heading w-[100px] h-4 left-[67.61px] top-[24.33px] absolute text-white text-lg font-normal font-['Minecrafter']">2nd PRIZE</div>
+        </div>
+      </div>
+      <div className="StPrize w-[379.10px] h-[605px] relative">
+        <img className="Picture w-[378.13px] h-[188.37px] left-[0.97px] top-0 absolute" src="Picture.png" />
+        <div className="Rectangle w-[378px] h-[430px] left-[0.70px] top-[175px] absolute bg-fuchsia-400" />
+        <img className="Image132 w-[378px] h-[430px] left-0 top-[175px] absolute" src="bg1.png" />
+        <div className="TextBox w-[350px] h-[407px] left-[14.54px] top-[188px] absolute bg-white">
+          <div className="GoodiesDescription w-[332.42px] left-[13.85px] top-[86.70px] absolute text-stone-900 text-base font-normal font-['Space Grotesk'] leading-7">Goodies<br/>Geeks for Geeks 800/- INR coupon on all courses<br/>Echo-ar Free premium tier services<br/>Online Mock Interviews from Interview Buddy<br/>Lifetime upgrades of Taskade Unlimited<br/>1 Year of 1Passwords Families<br/>3 months of Draftbit Starter<br/>Sashido Credits<br/>30 Days Free Receipt Credits</div>
+          <img className="HeadingBgImage w-[168px] h-[39px] left-[88px] top-[15px] absolute" src="img132.png" />
+          <div className="Heading left-[100px] top-[25px] absolute text-white text-[24.93px] font-normal font-['Minecrafter']">1st PRIZE</div>
+        </div>
+      </div>
+      {/* <div className="RdPrize w-[268.51px] h-[522.03px] relative">
+        <img className="Picture w-[268.27px] h-[127.58px] left-0 top-0 absolute" src="Picture.png" />
+        <div className="Content w-[268.27px] h-[383.45px] left-[0.24px] top-[138.58px] absolute bg-white border-8 border-blue-600">
+          <img className="BackgroundImage w-[268px] h-[398px] left-[1.20px] top-[-14.55px] absolute" src="Picture.png" />
+          <div className="RdPrizeContainer w-[242px] h-[369px] left-[13.20px] top-[-3.55px] absolute bg-white">
+            <div className="MaskGroup w-[15.79px] h-[15.79px] left-[168.38px] top-[3.44px] absolute">
+              <div className="Mask w-[15.79px] h-[15.79px] left-[-0px] top-[-0px] absolute" />
+            </div>
+            <div className="GoodiesDescription w-[236px] left-[11.12px] top-[84px] absolute text-stone-900 text-sm font-normal font-['Space Grotesk'] leading-[17.50px]">Goodies<br/>Geeks for Geeks (800/- INR coupon on all courses<br/>Echo-ar Free premium tier services<br/>Online Mock Interviews from Interview Buddy<br/>Lifetime upgrades of Taskade Unlimited<br/>1 Year of 1Passwords Families<br/>3 months of Draftbit Starter<br/>Sashido Credits<br/>30 Days Free Receipt Credits<br/></div>
+            <img className="HeadingBgImage w-[127px] h-[39px] left-[48px] top-[22px] absolute" src="Picture.png" />
+            <div className="Heading left-[62.65px] top-[36px] absolute text-white text-lg font-normal font-['Minecrafter']">3rd PRIZE</div>
+          </div>
+        </div>
+      </div> */}
+
+      <div className="RdPrize w-[268.51px] h-[499.03px] relative">
+        <div className="Picture w-[268.27px] h-[116.64px] left-0 top-0 absolute bg-gradient-to-tl from-sky-400 to-sky-400">
+          <img className="Picture w-[268px] h-[169px] left-0 top-[-52px] absolute" src="Picture.png" />
+        </div>
+        <img className="Bg w-[266px] h-[381px] left-[2.62px] top-[118.52px] absolute" src="Picture.png" />
+        <div className="RdPrizeContainer w-[242px] h-[360.86px] left-[12.40px] top-[128.67px] absolute bg-white">
+          <div className="GoodiesDescription w-[226px] left-[6.61px] top-[73.67px] absolute text-stone-900 text-sm font-normal font-['Space Grotesk'] leading-[21px]">Goodies<br/>Geeks for Geeks 800/- INR coupon on all courses<br/>Echo-ar Free premium tier services<br/>Online Mock Interviews from Interview Buddy<br/>Lifetime upgrades of Taskade Unlimited<br/>1 Year of 1Passwords Families<br/>3 months of Draftbit Starter<br/>Sashido Credits<br/>30 Days Free Receipt Credits</div>
+          <img className="HeadingBg w-[117px] h-[38px] left-[58.61px] top-[13.33px] absolute" src="Picture.png" />
+          <div className="Heading w-[100px] h-4 left-[67.61px] top-[24.33px] absolute text-white text-lg font-normal font-['Minecrafter']">3rd PRIZE</div>
+        </div>
+      </div>
+    </div>
+    <div className="BottomSection w-48 h-48 left-[1088px] top-[-64px] absolute">
+      <div className="Rectangle16673 w-16 h-16 left-[128px] top-0 absolute bg-stone-900" />
+      <div className="Rectangle16675 w-16 h-16 left-[64px] top-[64px] absolute bg-white" />
+      <div className="Rectangle16676 w-16 h-16 left-[128px] top-[128px] absolute bg-white" />
+      <div className="Rectangle16677 w-16 h-16 left-0 top-[128px] absolute bg-white" />
+    </div>
+  </div>
+  )
+}
+
+export default PrizesSection
+
+
+
+
