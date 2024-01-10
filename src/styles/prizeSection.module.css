@@ -1,0 +1,341 @@
+@font-face {
+    font-family: Minecrafter;
+    src: url(../../public/MinecraftRegular-Bmg3.otf);
+}
+
+
+.container {
+    width: 100%;
+    display: flex;
+    padding: 80px 0 120px 0;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 48px 87px;
+    align-self: stretch;
+    flex-wrap: wrap;
+    background: #1F1F1F;
+    position: relative;
+}
+
+.top_right {
+    width: 192px;
+    height: 126px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.bottom_left {
+    width: 256px;
+    height: 128px;
+    position: absolute;
+    left: -4px;
+    bottom: 0px;
+    top : 800px;
+}
+
+.heading {
+    display: flex;
+    width: 300px;
+    height: 59px;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFF;
+    text-align: center;
+    /* Minecrafter Regular/7xl */
+    font-family: 'Minecrafter', sans-serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    /* 72px */
+}
+
+.card_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 50px;
+}
+
+.left_card {
+    display: flex;
+    flex-direction: column;
+}
+
+.left_card_img {
+    width: 268px;
+    height: 169px;
+    flex-shrink: 0;
+    background: lightgray 0px 0px / 100% 100% no-repeat;
+}
+
+.left_card_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 268.272px;
+    height: 381.267px;
+    flex-shrink: 0;
+    background: #00F26D;
+}
+
+.left_card_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 243.486px;
+    height: 360.855px;
+    flex-shrink: 0;
+    background: #FFF;
+}
+
+.left_card_prize_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 117px;
+    height: 38px;
+    flex-shrink: 0;
+    background: url("../../public/image135.png") lightgray 50% / cover no-repeat;
+}
+
+.left_card_prize_img>div {
+    display: flex;
+    width: 90px;
+    height: 16px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: var(--white, #FFF);
+    font-family: 'Minecrafter', sans-serif;
+    font-size: 17.496px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.left_card_list {
+    list-style: none;
+    width: 226px;
+    color: var(--Black, #1F1F1F);
+    font-family: Space Grotesk;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.center_card {
+    display: flex;
+    flex-direction: column;
+}
+
+.center_card_img {
+    width: 378.132px;
+    height: 188.374px;
+    flex-shrink: 0;
+    background: lightgray 0px 0px / 100% 100% no-repeat;
+}
+
+.center_card_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 378px;
+    height: 430px;
+    flex-shrink: 0;
+    background: #FF8EFF;
+}
+
+.center_card_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 350px;
+    height: 407px;
+    flex-shrink: 0;
+    background: #FFF;
+}
+
+.center_card_prize_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 168px;
+    height: 39px;
+    flex-shrink: 0;
+    background: url("../../public/image131.png") lightgray 50% / cover no-repeat;
+}
+
+.center_card_prize_img>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 24.932px;
+    flex-shrink: 0;
+    color: var(--white, #FFF);
+    font-family: 'Minecrafter', sans-serif;
+    font-weight: 900;
+    line-height: normal;
+    font-style: normal;
+}
+
+.center_card_list {
+    list-style: none;
+    width: 332.424px;
+    color: var(--Black, #1F1F1F);
+    font-family: Space Grotesk;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 171%;
+    /* 27.36px */
+}
+
+.right_card {
+    display: flex;
+    flex-direction: column;
+}
+
+.right_card_img {
+    width: 268.272px;
+    height: 127.575px;
+    flex-shrink: 0;
+    background: lightgray 0px 0px / 100% 100% no-repeat;
+}
+
+.right_card_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 268.272px;
+    height: 381.267px;
+    flex-shrink: 0;
+    background: #006CEF;
+}
+
+.right_card_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 243.486px;
+    height: 360.855px;
+    flex-shrink: 0;
+    background: var(--white, #FFF);
+}
+
+.right_card_prize_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 117px;
+    height: 38px;
+    flex-shrink: 0;
+    background: url("../../public/right_prize.png") lightgray 50% / cover no-repeat;
+}
+
+.right_card_prize_img>div {
+    display: flex;
+    width: 90px;
+    height: 16px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: 'Minecrafter', sans-serif;
+    font-size: 17.496px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.right_card_list {
+    list-style: none;
+    width: 226px;
+    color: #1F1F1F;
+    font-family: Space Grotesk;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+@media only screen and (max-width: 1250px) {
+
+    .card_container {
+        width: 96%;
+        padding: 0 4% 0 4%;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .top_right,
+    .bottom_left {
+        display: none;
+    }
+
+    .left_card,
+    .right_card,
+    .center_card {
+        width: 100%;
+        max-width: 500px;
+        min-width: 300px;
+        border-radius: 20px;
+        height: auto;
+    }
+
+    .left_card_img,
+    .right_card_img,
+    .center_card_img,
+    .left_card_content,
+    .right_card_content,
+    .center_card_content {
+        width: 100%;
+        max-width: 500px;
+        min-width: 300px;
+    }
+
+    .left_card_img,
+    .right_card_img,
+    .center_card_img {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .left_card_content,
+    .right_card_content,
+    .center_card_content {
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .left_card_box,
+    .right_card_box,
+    .center_card_box {
+        width: 96%;
+
+    }
+
+    .left_card_list,
+    .right_card_list,
+    .center_card_list {
+        padding-left: 20px;
+        padding-right: 10px;
+        width: 100%;
+    }
+
+    .left_card {
+        order: 2;
+    }
+
+    .right_card {
+        order: 3;
+    }
+}
