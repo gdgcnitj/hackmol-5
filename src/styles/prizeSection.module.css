@@ -285,7 +285,7 @@
         padding: 0 4% 0 4%;
         flex-direction: column;
         align-items: center;
-        gap: 10px;
+        gap: 22px;
     }
 
     .top_right,
@@ -350,4 +350,14 @@
     .right_card {
         order: 3;
     }
+
+    .left_card ,.center_card,.right_card{
+        /* Your existing styles for left_card */
+        transition: none; /* Add a smooth transition effect */
+      }
+      
+      /* New styles for hover effect */
+      .left_card:hover ,.center_card:hover,.right_card:hover{
+        transform: none; /* You can adjust the scaling factor as needed */
+      }
 }
