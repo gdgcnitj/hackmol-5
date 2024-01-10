@@ -1,6 +1,6 @@
 import React from "react";
 
-function RulesPoint({ color, alignment, icon }) {
+function RulesPoint({ Desc, color, alignment, icon }) {
   const getAlign = () => {
     return alignment === "left" ? "flex-row-reverse" : "";
   };
@@ -25,8 +25,9 @@ function RulesPoint({ color, alignment, icon }) {
         }}
       >
         <div className={`font-medium text-xl px-8`}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          {Desc} Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Commodi sequi recusandae ullam molestias sed, vero enim neque esse,
+          aperiam hic.
         </div>
       </div>
     </div>

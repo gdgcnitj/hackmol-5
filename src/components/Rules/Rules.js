@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import RulesPoints from "./RulesPoints";
-import rec1 from "./elements/rec1.svg";
-import rec2 from "./elements/rec2.svg";
-import rec3 from "./elements/rec3.svg";
-import rec4 from "./elements/rec4.svg";
+import rec1 from "../../../public/elements/rec1.svg";
+import rec2 from "../../../public/elements/rec2.svg";
+import rec3 from "../../../public/elements/rec3.svg";
+import rec4 from "../../../public/elements/rec4.svg";
 
 function Rules() {
   const rules = [
@@ -62,13 +62,12 @@ function Rules() {
               ratione veniam, laboriosam ab.
             </div>
             <div className="md:w-3/4 space-y-2">
-              {rules.map((ele, i) => (
+              {rules.map((ele) => (
                 <RulesPoints
                   Desc={ele.rule}
                   color={ele.color}
                   alignment={ele.align}
                   icon={ele.svg_url}
-                  key={i}
                 />
               ))}
             </div>
