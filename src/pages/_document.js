@@ -40,6 +40,7 @@ export default function Document() {
                     <meta name="twitter:domain" content="https://hackmol4.tech" />
                     <meta name="twitter:app:name:iphone" content="HackMOL 4.0" />
                     <meta name="twitter:app:name:ipad" content="HackMOL 4.0" />
+                    
 
                 </Head>
 
@@ -49,7 +50,7 @@ export default function Document() {
 
                 <Main />
                 <NextScript />
-       <Script src="https://apply.devfolio.co/v2/sdk.js" strategy="beforeInteractive"  defer async   ></Script>
+       {/* <Script src="https://apply.devfolio.co/v2/sdk.js" strategy="beforeInteractive"  defer async   ></Script> */}
 
             </Html>
         )
