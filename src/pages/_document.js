@@ -50,7 +50,7 @@ export default function Document() {
 
                 <Main />
                 <NextScript />
-       <Script src="https://apply.devfolio.co/v2/sdk.js" strategy="beforeInteractive"  defer async   ></Script>
+       {/* <Script src="https://apply.devfolio.co/v2/sdk.js" strategy="beforeInteractive"  defer async   ></Script> */}
 
             </Html>
         )
