@@ -64,7 +64,7 @@ export default function Home() {
       <Judges />
 
       <Testimonies/>
-      {/* <FAQ></FAQ> */}
+      <FAQ />
       <Footer></Footer>
       <FooterLinks></FooterLinks>
     </div>
