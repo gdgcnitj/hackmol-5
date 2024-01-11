@@ -325,7 +325,7 @@ flex-shrink: 0;
 
 }
 
-@media only screen and (max-width: 1250px) {
+@media only screen and (max-width: 1050px) {
 
     .card_container {
         width: 96%;
@@ -407,4 +407,14 @@ flex-shrink: 0;
       .left_card:hover ,.center_card:hover,.right_card:hover{
         transform: none; /* You can adjust the scaling factor as needed */
       }
+      /* Sibling selector to reduce the size of other cards on hover */
+.left_card:hover ~ .center_card,
+.left_card:hover ~ .right_card,
+.center_card:hover ~ .left_card,
+.center_card:hover ~ .right_card,
+.right_card:hover ~ .left_card,
+.right_card:hover ~ .center_card {
+    transform: none; /* Adjust the scaling factor for the reduced size */
+}
+
 }
