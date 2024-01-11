@@ -39,7 +39,7 @@ const PrizeSection = (props) => {
           <div className={styles.left_card}>
             <img
               className={styles.left_card_img}
-              src="Picture.png"
+              src="images/Picture.png"
               alt="sec_prize"
             ></img>
             <div className={styles.left_card_content}>
@@ -48,15 +48,15 @@ const PrizeSection = (props) => {
                   <div>2ND PRIZE</div>
                 </div>
                 <div className={styles.left_card_list}>
-                  <li>1. Goodies</li>
-                  <li>2. Geeks for Geeks(800/- INR coupon on all courses)</li>
-                  <li>3. Echo-ar Free premium tier services</li>
-                  <li>4. Online Mock Interviews from Interview Buddy </li>
-                  <li>5. Lifetime upgrades of Taskade Unlimited</li>
-                  <li>6. 1 Year of 1Passwords Families</li>
-                  <li>7. 3 months of Draftbit Starter</li>
-                  <li>8. Sashido Credits</li>
-                  <li>9. 30 Days Free Receipt Credits</li>
+                  <li>Goodies</li>
+                  <li>Geeks for Geeks(800/- INR coupon on all courses)</li>
+                  <li>Echo-ar Free premium tier services</li>
+                  <li>Online Mock Interviews from Interview Buddy </li>
+                  <li>Lifetime upgrades of Taskade Unlimited</li>
+                  <li>1 Year of 1Passwords Families</li>
+                  <li>3 months of Draftbit Starter</li>
+                  <li>Sashido Credits</li>
+                  <li>30 Days Free Receipt Credits</li>
                 </div>
               </div>
             </div>
@@ -64,7 +64,7 @@ const PrizeSection = (props) => {
           <div className={styles.center_card}>
             <img
               className={styles.center_card_img}
-              src="center.png"
+              src="images/center.png"
               alt="first_prize"
             ></img>
             <div className={styles.center_card_content}>
@@ -73,15 +73,18 @@ const PrizeSection = (props) => {
                   <div>1ST PRIZE</div>
                 </div>
                 <div className={styles.center_card_list}>
-                  <li>1. Goodies</li>
-                  <li>2. Geeks for Geeks(800/- INR coupon on all courses)</li>
-                  <li>3. Echo-ar Free premium tier services</li>
-                  <li>4. Online Mock Interviews from Interview Buddy </li>
-                  <li>5. Lifetime upgrades of Taskade Unlimited</li>
-                  <li>6. 1 Year of 1Passwords Families</li>
-                  <li>7. 3 months of Draftbit Starter</li>
-                  <li>8. Sashido Credits</li>
-                  <li>9. 30 Days Free Receipt Credits</li>
+               
+                 <li>Goodies</li>
+                  <li>Geeks for Geeks(800/- INR coupon on all courses)</li>
+                  <li>Echo-ar Free premium tier services</li>
+                  <li>Online Mock Interviews from Interview Buddy </li>
+                  <li>Lifetime upgrades of Taskade Unlimited</li>
+                  <li>1 Year of 1Passwords Families</li>
+                  <li>3 months of Draftbit Starter</li>
+                  <li>Sashido Credits</li>
+                  <li>30 Days Free Receipt Credits</li>
+                 
+
                 </div>
               </div>
             </div>
@@ -89,7 +92,7 @@ const PrizeSection = (props) => {
           <div className={styles.right_card}>
             <img
               className={styles.right_card_img}
-              src="right.png"
+              src="images/right.png"
               alt="sec_prize"
             ></img>
             <div className={styles.right_card_content}>
@@ -98,15 +101,16 @@ const PrizeSection = (props) => {
                   <div>3RD PRIZE</div>
                 </div>
                 <div className={styles.right_card_list}>
-                  <li>1. Goodies</li>
-                  <li>2. Geeks for Geeks(800/- INR coupon on all courses)</li>
-                  <li>3. Echo-ar Free premium tier services</li>
-                  <li>4. Online Mock Interviews from Interview Buddy </li>
-                  <li>5. Lifetime upgrades of Taskade Unlimited</li>
-                  <li>6. 1 Year of 1Passwords Families</li>
-                  <li>7. 3 months of Draftbit Starter</li>
-                  <li>8. Sashido Credits</li>
-                  <li>9. 30 Days Free Receipt Credits</li>
+                <li>Goodies</li>
+                  <li>Geeks for Geeks(800/- INR coupon on all courses)</li>
+                  <li>Echo-ar Free premium tier services</li>
+                  <li>Online Mock Interviews from Interview Buddy </li>
+                  <li>Lifetime upgrades of Taskade Unlimited</li>
+                  <li>1 Year of 1Passwords Families</li>
+                  <li>3 months of Draftbit Starter</li>
+                  <li>Sashido Credits</li>
+                  <li>30 Days Free Receipt Credits</li>
+
                 </div>
               </div>
             </div>
