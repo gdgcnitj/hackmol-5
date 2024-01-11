@@ -62,8 +62,9 @@ function Rules() {
               ratione veniam, laboriosam ab.
             </div>
             <div className="md:w-3/4 space-y-2">
-              {rules.map((ele) => (
+              {rules.map((ele,index) => (
                 <RulesPoints
+                  key={index}
                   Desc={ele.rule}
                   color={ele.color}
                   alignment={ele.align}
