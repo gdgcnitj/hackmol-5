@@ -4,15 +4,37 @@
 }
 
 
-.left_card ,.center_card,.right_card{
+/* Common styles for all cards */
+.left_card, .center_card, .right_card {
     /* Your existing styles for left_card */
     transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
-  }
-  
-  /* New styles for hover effect */
-  .left_card:hover ,.center_card:hover,.right_card:hover{
-    transform: scale(1.1); /* You can adjust the scaling factor as needed */
-  }
+}
+
+/* Hover effect for each card */
+.left_card:hover {
+    transform: scale(1.1);
+}
+
+.center_card:hover {
+    transform: scale(1.1);
+}
+
+.right_card:hover {
+    transform: scale(1.1);
+}
+
+/* Sibling selector to reduce the size of other cards on hover */
+.left_card:hover ~ .center_card,
+.left_card:hover ~ .right_card,
+.center_card:hover ~ .left_card,
+.center_card:hover ~ .right_card,
+.right_card:hover ~ .left_card,
+.right_card:hover ~ .center_card {
+    transform: scale(0.9); /* Adjust the scaling factor for the reduced size */
+}
+
+
+
 
   .logo2prize{
     
