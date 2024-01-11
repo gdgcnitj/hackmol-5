@@ -4,6 +4,15 @@
 }
 
 
+.left_card ,.center_card,.right_card{
+    /* Your existing styles for left_card */
+    transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+  }
+  
+  /* New styles for hover effect */
+  .left_card:hover ,.center_card:hover,.right_card:hover{
+    transform: scale(1.1); /* You can adjust the scaling factor as needed */
+  }
 .container {
     width: 100%;
     display: flex;
@@ -100,7 +109,7 @@
     width: 117px;
     height: 38px;
     flex-shrink: 0;
-    background: url("../../public/image135.png") lightgray 50% / cover no-repeat;
+    background: url("../../public/images/image135.png") lightgray 50% / cover no-repeat;
 }
 
 .left_card_prize_img>div {
@@ -119,7 +128,7 @@
 }
 
 .left_card_list {
-    list-style: none;
+    list-style: decimal;
     width: 226px;
     color: var(--Black, #1F1F1F);
     font-family: Space Grotesk;
@@ -127,6 +136,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
+    padding-left: 10px;
 }
 
 .center_card {
@@ -169,7 +179,7 @@
     width: 168px;
     height: 39px;
     flex-shrink: 0;
-    background: url("../../public/image131.png") lightgray 50% / cover no-repeat;
+    background: url("../../public/images/image131.png") lightgray 50% / cover no-repeat;
 }
 
 .center_card_prize_img>div {
@@ -186,7 +196,7 @@
 }
 
 .center_card_list {
-    list-style: none;
+    list-style: decimal;
     width: 332.424px;
     color: var(--Black, #1F1F1F);
     font-family: Space Grotesk;
@@ -194,6 +204,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 171%;
+   padding-left: 10px;
     /* 27.36px */
 }
 
@@ -237,7 +248,7 @@
     width: 117px;
     height: 38px;
     flex-shrink: 0;
-    background: url("../../public/right_prize.png") lightgray 50% / cover no-repeat;
+    background: url("../../public/images/right_prize.png") lightgray 50% / cover no-repeat;
 }
 
 .right_card_prize_img>div {
@@ -256,7 +267,7 @@
 }
 
 .right_card_list {
-    list-style: none;
+    list-style: decimal;
     width: 226px;
     color: #1F1F1F;
     font-family: Space Grotesk;
@@ -264,6 +275,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
+    padding-left: 10px;
 }
 
 @media only screen and (max-width: 1250px) {
@@ -273,7 +285,7 @@
         padding: 0 4% 0 4%;
         flex-direction: column;
         align-items: center;
-        gap: 10px;
+        gap: 22px;
     }
 
     .top_right,
@@ -338,4 +350,14 @@
     .right_card {
         order: 3;
     }
+
+    .left_card ,.center_card,.right_card{
+        /* Your existing styles for left_card */
+        transition: none; /* Add a smooth transition effect */
+      }
+      
+      /* New styles for hover effect */
+      .left_card:hover ,.center_card:hover,.right_card:hover{
+        transform: none; /* You can adjust the scaling factor as needed */
+      }
 }
