@@ -39,7 +39,7 @@ let Footer = function(props){
                 </div>
                 {/* Learn about GDSC */}
                         <div className="">
-                            <button className="ml-3"><a target={"_blank"} rel="noreferrer" href="https://gdsc.community.dev/dr-b-r-ambedkar-national-institute-of-technology-nit-jalandhar/"><svg width="300" height="72" viewBox="0 0 211 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <button className="m-auto mt-9 ml-2"><a target={"_blank"} rel="noreferrer" href="https://gdsc.community.dev/dr-b-r-ambedkar-national-institute-of-technology-nit-jalandhar/"><svg width="300" height="72" viewBox="0 0 211 36" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect x="16.0382" y="32.2051" width="194.086" height="1.55514" fill="#69FF93"/>
 <rect x="13.902" y="31.1685" width="196.219" height="1.03676" fill="#69FF93"/>
 <rect x="11.771" y="29.6143" width="197.285" height="1.55514" fill="#69FF93"/>
