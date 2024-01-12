@@ -38,7 +38,7 @@ function Testimonies() {
         </div>
       </div>
       <div className="flex relative">
-        <div className="bg-white  text-center  border-4 border-pink-400  lg:w-[60vw] w-fit h-fit  lg:h-fit md:h-fit   relative  lg:right-[-22vw] lg: right-[-20vw] md:pr-[12vw] lg:pr-[7vw] pl-[1vw] py-[4vw]  pr-[7vw] ">
+        <div className="bg-white  text-center  border-4 border-pink-400  lg:w-[60vw] w-fit h-fit  lg:h-fit md:h-fit   relative   lg: right-[-20vw] md:pr-[12vw] lg:pr-[7vw] pl-[1vw] py-[4vw]  pr-[7vw] ">
           <div>
             <div className="flex text-xl sm:font-bold sm:text-xl  text-lg justify-end ">
               <h1>Nikhil</h1>
@@ -61,7 +61,7 @@ function Testimonies() {
             </div>
           </div>
         </div>
-        <div className="relative  md:top-[1vw] top-[11vw] lg:top-[-2vw] lg:bottom-[5vw] md:left-0 xl:top-[-2vw]  lg:left-[6px] xl:left-[5vw] 2xl:left-[10vw] ">
+        <div className="relative  md:top-[1vw] top-[11vw]  lg:top-[-10px] md:left-0 xl:top-[-2vw]   xl:left-[5vw] 2xl:left-[8vw] ">
           <img src={t2.src} className="" alt="#" />
         </div>
       </div>
