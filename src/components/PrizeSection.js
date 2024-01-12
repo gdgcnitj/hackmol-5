@@ -62,15 +62,15 @@ const PrizeSection = (props) => {
                 </div>
                 <div className={styles.left_card_list}>
                 
-                  <List  imgsrc = "/images/image151.png" content = "Goodies"/>
-                  <List  imgsrc = "/images/image151.png" content = "Geeks for Geeks(800/- INR coupon on all courses)"/>
-                  <List  imgsrc = "/images/image151.png" content = "Echo-ar Free premium tier services"/>
-                  <List  imgsrc = "/images/image151.png" content = "Online Mock Interviews from Interview Buddy "/>
-                  <List  imgsrc = "/images/image151.png" content = "Lifetime upgrades of Taskade Unlimited"/>
-                  <List  imgsrc = "/images/image151.png" content = "1 Year of 1Passwords Families"/>
-                  <List  imgsrc = "/images/image151.png" content = "3 months of Draftbit Starter"/>
-                  <List imgsrc = "/images/image151.png" content = "Sashido Credits"/>
-                  <List imgsrc = "/images/image151.png" content = "30 Days Free Receipt Credits"/>
+                  <List  imgsrc = "./images/image151.png"  content = "Goodies"/>
+                  <List  imgsrc = "./images/image151.png" content = "Geeks for Geeks(800/- INR coupon on all courses)"/>
+                  <List  imgsrc = "./images/image151.png"  content = "Echo-ar Free premium tier services"/>
+                  <List  imgsrc = "./images/image151.png" content = "Online Mock Interviews from Interview Buddy "/>
+                  <List  imgsrc = "./images/image151.png"  content = "Lifetime upgrades of Taskade Unlimited"/>
+                  <List  imgsrc = "./images/image151.png" content = "1 Year of 1Passwords Families"/>
+                  <List  imgsrc = "./images/image151.png" content = "3 months of Draftbit Starter"/>
+                  <List imgsrc = "./images/image151.png"  content = "Sashido Credits"/>
+                  <List imgsrc = "./images/image151.png"  content = "30 Days Free Receipt Credits"/>
                 </div>
               </div>
             </div>
@@ -91,15 +91,15 @@ const PrizeSection = (props) => {
                 <img className={styles.logo2prize} src = "images/1logor.png"></img>
                 </div>
                 <div className={styles.center_card_list}>
-                <List  imgsrc = "/images/image152.png" content = "Goodies"/>
-                  <List  imgsrc = "/images/image152.png" content = "Geeks for Geeks(800/- INR coupon on all courses)"/>
-                  <List  imgsrc = "/images/image152.png" content = "Echo-ar Free premium tier services"/>
-                  <List  imgsrc = "/images/image152.png" content = "Online Mock Interviews from Interview Buddy "/>
-                  <List  imgsrc = "/images/image152.png" content = "Lifetime upgrades of Taskade Unlimited"/>
-                  <List  imgsrc = "/images/image152.png" content = "1 Year of 1Passwords Families"/>
-                  <List  imgsrc = "/images/image152.png" content = "3 months of Draftbit Starter"/>
-                  <List imgsrc = "/images/image152.png" content = "Sashido Credits"/>
-                  <List imgsrc = "/images/image152.png" content = "30 Days Free Receipt Credits"/>
+                <List  imgsrc = "./images/image152.png"  content = "Goodies"/>
+                  <List  imgsrc = "./images/image152.png"  content = "Geeks for Geeks(800/- INR coupon on all courses)"/>
+                  <List  imgsrc = "./images/image152.png" content = "Echo-ar Free premium tier services"/>
+                  <List  imgsrc = "./images/image152.png" content = "Online Mock Interviews from Interview Buddy "/>
+                  <List  imgsrc = "./images/image152.png" content = "Lifetime upgrades of Taskade Unlimited"/>
+                  <List  imgsrc = "./images/image152.png" content = "1 Year of 1Passwords Families"/>
+                  <List  imgsrc = "./images/image152.png" content = "3 months of Draftbit Starter"/>
+                  <List imgsrc = "./images/image152.png"  content = "Sashido Credits"/>
+                  <List imgsrc = "./images/image152.png"  content = "30 Days Free Receipt Credits"/>
               
 
                 </div>
@@ -122,15 +122,15 @@ const PrizeSection = (props) => {
                 <img className={styles.logo2prize} src = "images/3logo.png"></img>
                 </div>
                 <div className={styles.right_card_list}>
-                <List  imgsrc = "/images/image153.png" content = "Goodies"/>
-                  <List  imgsrc = "/images/image153.png" content = "Geeks for Geeks(800/- INR coupon on all courses)"/>
-                  <List  imgsrc = "/images/image153.png" content = "Echo-ar Free premium tier services"/>
-                  <List  imgsrc = "/images/image153.png" content = "Online Mock Interviews from Interview Buddy "/>
-                  <List  imgsrc = "/images/image153.png" content = "Lifetime upgrades of Taskade Unlimited"/>
-                  <List  imgsrc = "/images/image153.png" content = "1 Year of 1Passwords Families"/>
-                  <List  imgsrc = "/images/image153.png" content = "3 months of Draftbit Starter"/>
-                  <List imgsrc = "/images/image153.png" content = "Sashido Credits"/>
-                  <List imgsrc = "/images/image153.png" content = "30 Days Free Receipt Credits"/>
+                <List  imgsrc = "./images/image153.png"  content = "Goodies"/>
+                  <List  imgsrc = "./images/image153.png"  content = "Geeks for Geeks(800/- INR coupon on all courses)"/>
+                  <List  imgsrc = "./images/image153.png" content = "Echo-ar Free premium tier services"/>
+                  <List  imgsrc = "./images/image153.png"  content = "Online Mock Interviews from Interview Buddy "/>
+                  <List  imgsrc = "./images/image153.png" content = "Lifetime upgrades of Taskade Unlimited"/>
+                  <List  imgsrc = "./images/image153.png" content = "1 Year of 1Passwords Families"/>
+                  <List  imgsrc = "./images/image153.png" content = "3 months of Draftbit Starter"/>
+                  <List imgsrc = "./images/image153.png" content = "Sashido Credits"/>
+                  <List imgsrc = "./images/image153.png" content = "30 Days Free Receipt Credits"/>
 
                 </div>
               </div>
