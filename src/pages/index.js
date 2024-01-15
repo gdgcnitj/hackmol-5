@@ -1,20 +1,45 @@
 // import Script from 'next/script'
-import Testimonies from "../components/Testimonies";
-import Rules from "../components/Rules/Rules";
-import FAQ from "../components/FAQ/FAQ";
-import PrizeSection from "../components/PrizeSection";
-import Track from "../components/track";
-import Footer from "../components/Footer";
+import Image from 'next/image'
+'use client'
+import { useState,useEffect,SetStateAction } from 'react'
+
+import Banner2 from '@/components/banner'
+import Hackmol from   '@/components/img'
+import Register from  '@/components/reg'
+import Log from '@/components/logo'
+import NavBar from '@/components/nav'
+import Link from 'next/link'
+
 
 export default function Home() {
   return (
     <div>
-      <PrizeSection />
-      <Testimonies />
-      <Rules />
-      <Track/>
-      <FAQ/>
-      <Footer/>
+   <Banner2/>
+<div className="six">
+<Log/>
+</div>
+<div className='five'>
+<Hackmol/>
+</div>
+<div className="seven">
+<div className='hidden sm:flex items-center justify-center md:justify-start'>
+                           
+                           
+                           <Link
+                               target='_blank'
+                               rel='noreferrer'
+                               href='https://www.nitj.ac.in/events_registration/hackmol/login'>
+                               <button
+                                   
+                                   onClick={() => console.log('connect')} >
+                                  <h3 className="mol">Register</h3>
+                                  <Register/>
+                               </button>
+                           </Link>
+                       </div>
+</div>
+
+<NavBar/>
     </div>
   );
 }
