@@ -144,4 +144,3 @@ let FAQ = function () {
 
 
 export default FAQ;
-
