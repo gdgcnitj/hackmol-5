@@ -21,7 +21,7 @@ function HeroSection() {
             className="w-70"
           />
         </div>
-        <div className="font-Minecrafter text-6xl font-black flex relative py-8 flex-col justify-center items-center">
+        <div className="font-Minecraft text-6xl font-normal flex relative py-8 flex-col justify-center items-center">
           <div className="flex relative">THINK OUTSIDE THE BOX</div>
           <div className="flex relative">HACK INSIDE IT</div>
         </div>
@@ -29,7 +29,7 @@ function HeroSection() {
           <div className="flex relative text-2xl font-bold font-Space-Grotesk">
             Dig deeper
           </div>
-          <div className="flex relative">
+          <div className="flex relative pb-6">
             <img src={linkArrow.src} alt="#" />
           </div>
           <div className="flex relative" 

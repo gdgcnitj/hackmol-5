@@ -14,6 +14,11 @@
 /* // tailwind.css or your custom CSS file */
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=VT323&display=swap');
 
+@font-face {
+  font-family: "Minecraft";
+  src: url("../../public/minecraft.ttf");
+}
+
 
 
 html,
