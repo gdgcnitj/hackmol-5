@@ -1,12 +1,8 @@
-// import Script from 'next/script'
-import Image from 'next/image'
-import { useState,useEffect,SetStateAction } from 'react'
-
-import Banner2 from "@/components/hero/banner";
-import Hackmol from   "@/components/hero/img";
-import Register from  "@/components/hero/reg";
-import Log from "@/components/hero/logo";
-import NavBar from "@/components/hero/nav";
+import Banner2 from "../components/hero/banner";
+import Hackmol from   "../components/hero/img";
+import Register from  "../components/hero/reg";
+import Log from "../components/hero/logo";
+import NavBar from "../components/hero/nav";
 import Link from 'next/link'
 import Testimonies from "../components/Testimonies";
 import Rules from "../components/Rules/Rules";
