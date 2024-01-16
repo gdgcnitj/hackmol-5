@@ -1,9 +1,12 @@
-import React from "react";
+import React, {useState} from "react";
 import heroSection from "../../../public/images/HeroText.svg";
 import linkArrow from "../../../public/images/LinkArrow.svg";
 import regButton from "../../../public/images/RegisterButton.svg";
+import regButtonHover from "../../../public/images/RegisterButtonHover.svg";
 
 function HeroSection() {
+  const [isHovered, setIsHovered] = useState(false);
+
   return (
     <div
       className="relative w-full h-[1972px] bg-cover overflow-y-auto"
@@ -29,8 +32,15 @@ function HeroSection() {
           <div className="flex relative">
             <img src={linkArrow.src} alt="#" />
           </div>
-          <div className="flex relative">
-            <img src={regButton.src} alt="#" />
+          <div className="flex relative" 
+            onMouseEnter={() => setIsHovered(true)}
+            onMouseLeave={() => setIsHovered(false)}
+          >
+            {isHovered ? (
+              <img src={regButtonHover.src} alt="#" />
+            ) : (
+              <img src={regButton.src} alt="#" />
+            )}
           </div>
         </div>
       </div>
