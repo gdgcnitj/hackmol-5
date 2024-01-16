@@ -1,6 +1,5 @@
 // import Script from 'next/script'
 import Image from 'next/image'
-'use client'
 import { useState,useEffect,SetStateAction } from 'react'
 
 import Banner2 from "@/components/hero/banner";
