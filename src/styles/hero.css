@@ -365,31 +365,58 @@ nav.navbar {
   @media (max-width: 900px) {
     .woow{
       display: flex;
-  width: 393px;
+  width: 375px;
   padding:38px 4px;
   justify-content: center;
   align-items: center;
   gap: 4px;
   background: var(--Black, #1F1F1F);
   
-  height: 13rem;
+  height: 7rem;
   
-    }
-  }@media (max-width: 900px) {
-    .wow  {
-      display: flex;
-      flex-wrap: wrap;
-      width: 393px;
-      padding: 5px 4px;
-      justify-content: space-between;
-      align-items: center;
-      background: var(--Black, #1F1F1F);
-      background-color: rgba(0, 0, 0, 4);
-    height: 0.1rem;
-  
-     
     }
   }
+  @media (min-width: 700px) {
+    .woow{
+      display: flex;
+  width:1520px;
+  padding:38px 4px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  background: var(--Black, #1F1F1F);
+  
+  height: 8rem;
+  position: relative;
+  bottom: 8rem;
+    }
+  }
+ @media (min-width: 900px) {
+    .what {
+      height: 8rem;
+      margin-top: -14rem;
+      position: relative;
+      
+    }
+  }
+
+  @media (max-width: 900px) {
+    .what {
+     
+      margin-top: -4rem;
+      position: relative;
+      
+    }
+  }
+  @media (max-width: 900px) {
+    .man{
+      display: flex;
+    position: relative;
+               
+
+    }
+  }
+  
   @media (min-width: 900px) {
     .man{
       display: none;
@@ -411,13 +438,14 @@ nav.navbar {
   .heaven
   {
     display: flex;
-  width: 393px;
-  padding: 21px 20px;
+  width: 380px;
+  padding: 21px 18px;
   justify-content: space-between;
   align-items: center;
-  background: var(--Black, #1F1F1F);
+ 
   position: relative;
-  bottom: 17rem;
+  top:0.5rem;
+  right: 1%;
   }
   @media (max-width: 900px) {
     .regist{
@@ -483,10 +511,13 @@ nav.navbar {
       align-items: center;
       /*trial*/
       display: flex;
-  width: 35%;
+  width: 29%;
   padding: 30px ;
   justify-content: center;
   align-items: center;
+  position: relative;
+  top:1.8rem;
+  
   
     }
   }
@@ -503,277 +534,163 @@ nav.navbar {
     }
   }
   
+  @media (min-width: 900px) {
+    .wow{
+      display: flex;
+      width: 100%;
+        
+    }
+  }
+
   
   .gdsc
   {
     color: white;
+  
   font-family: Poppins;
-  font-size: 28.09px;
+  font-size: 38.09px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
   background: var(--Black, #1F1F1F);
   padding: 1.4% 4.8%;
+  position: relative;
+  bottom: 0.2rem;
+  left:2%;
   }
   .nit
   {
     color: #FFF;
   
   font-family: Poppins;
-  font-size: 14.73px;
+  font-size: 20.73px;
   font-style: normal;
   font-weight: 400;
   line-height: 15.908px; /* 107.999% */
   
   background: var(--Black, #1F1F1F);
-  
+  position: relative;
+ bottom: 0.2rem;
+ 
+  justify-content: space-between;
   
   }
-  hr{
-    color:gray;
-    border-width: 3px;
-   background:gray;
-   position:relative;
-   bottom: 4rem;
-    
-  }
+ 
+
   
   .five
   {
     position: relative;
-    bottom:5.5rem;
-    left:33%;
+    bottom:8rem;
+    left:37%;
   }
   .six{
-    position:relative;
-   bottom:3.3rem;
-    left:0.5%;
+   position: relative;
+ bottom:5rem;
+ left: 2.2%;
   }
   .seven{
     position: relative;
-    bottom:13.8rem;
-    left:85%;
+    bottom: 15.2rem;
+    left:82%;
   }
+  
   .mol{
-    color:white; 
+    color: #FFF;
     text-align: center;
-  
-  /* Minecrafter Regular/xl */
-  font-family:Lorem Ipsum ;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 150%; /* 30px */
-  position: relative;
-  top:3.5rem;
-  }
-  .tex1{
-    border-top: 1px solid #FFF;
-  background: var(--Black, #1F1F1F);
-  position: relative;
-  bottom: 15.2rem;
-  color: var(--white, #FFF);
-  
-  font-family: Space Grotesk;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 125%; /* 40px */
-  padding:24px 60px;
+/* Minecrafter Regular/xl */
+font-family: Minecrafter;
+font-size: 35px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 30px */
+position: relative;
+top: 3.6rem;
   }
   
+  .tell{
+    color: var(--white, #FFF);
+
+font-family: Space Grotesk;
+font-size: 38px;
+font-style: normal;
+font-weight: 700;
+line-height: 125%; /* 40px */
+position: relative;
+top: 3rem;
+right:500%;
+  }
   .texx{
     color: var(--white, #FFF);
-   
+
     font-family: Space Grotesk;
-    font-size: 32px;
+    font-size: 38px;
     font-style: normal;
     font-weight: 700;
     line-height: 125%; /* 40px */
-    padding:24px 60px;
-    position:relative;
-  bottom:20.6rem;
-    left: 12%;
+    position: relative;
+    top: rem;
+    right:221%;
   }
   .texx2{
     color: var(--white, #FFF);
-  
-  font-family: Space Grotesk;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 125%; /* 40px */
-  padding:24px 32% ;
-  position: relative;
-   bottom:26.2rem;
+
+    font-family: Space Grotesk;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%; /* 40px */
+    position: relative;
+    bottom:2.8rem;
+    right:70%;
   }
   .texx3{
-    color: var(--white, #FFF);
-   
-    font-family: Space Grotesk;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 125%; /* 40px */
-    position:relative;
-    bottom: 30.2rem;
-     left:45%;
+      color: var(--white, #FFF);
   
-  }
-  .texx4{
-    color: var(--white, #FFF);
-    
-    font-family: Space Grotesk;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 125%; /* 40px */
-    position:relative;
-    bottom: 32.7rem;
-     left:57.5%;
-  }
-  .texx5{
-    color: var(--white, #FFF);
-    
-    font-family: Space Grotesk;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 125%; /* 40px */
-    position:relative;
-    bottom: 35.2rem;
-     left:71.5%;
-  }
-  .texx6{
-    color: var(--white, #FFF);
-   
-    font-family: Space Grotesk;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 125%; /* 40px */
-    position:relative;
-  left:85%;
-  bottom: 37.6rem;
-  
-  
-  }
-  .tell
-  {
-    position: relative;
-    top: 0.2rem;
-  }
-  .man{
-    color: var(--White, #FFF);
-  
-  font-family:Space Grotesk;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 0.2px;
-  text-transform: uppercase;
-  position: relative;
-  bottom: 16.5rem;
-  left: 70%;
-  }
-  .sign{
-    position: relative;
-  bottom: 16.5rem;
-  left: 78%;
-  }
-  @media (min-width: 900px) {
-    .no{
-      display: none;
-       
+      font-family: Space Grotesk;
+      font-size: 38px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 125%; /* 40px */
+      position: relative;
+      bottom:5.5rem;
+      left:55%;
     }
-  }
-  .no{
-    width: 24px;
-  height: 2px;
-  position: relative;
-  bottom: 18rem;
-  left: 2%;
-  }
-  .yes{
-    width: 24px;
-    height: 2px;
-    position: relative;
-    bottom: 17.7rem;
-    left: 2%;
-  }
-  /*testing*/
-  /* styles/Navbar.module.css */
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-    background-color: #333;
-    color: white;
-  }
+    .texx4{
+      color: var(--white, #FFF);
   
-  .mobile{
-    color: white;
-    text-decoration: none;
-    font-size: 1.5rem;
-  }
-  
-  .menu {
-    display: flex;
-    align-items: center;
-  }
-  
-  .mobileIcon {
-    display: none;
-    cursor: pointer;
-    flex-direction: column;
-  }
-  
-  .mobileIcon span {
-    height: 3px;
-    width: 25px;
-    background-color: white;
-    margin: 5px 0;
-    transition: 0.4s;
-  }
-  
-  .menu.open .mobileIcon span:nth-child(1) {
-    transform: rotate(-45deg) translate(-5px, 6px);
-  }
-  
-  .menu.open .mobileIcon span:nth-child(2) {
-    opacity: 0;
-  }
-  
-  .menu.open .mobileIcon span:nth-child(3) {
-    transform: rotate(45deg) translate(-5px, -6px);
-  }
-  
-  .links {
-    display: flex;
-  }
-  
-  .links a {
-    color: white;
-    text-decoration: none;
-    margin-right: 1rem;
-  }
-  
-  @media (max-width: 768px) {
-    .menu {
-      flex-direction: column;
+      font-family: Space Grotesk;
+      font-size: 38px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 125%; /* 40px */
+      position: relative;
+      bottom:8.4rem;
+      left:165%;
     }
+    .texx5{
+      color: var(--white, #FFF);
   
-    .mobileIcon {
-      display: flex;
+      font-family: Space Grotesk;
+      font-size: 38px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 125%; /* 40px */
+      position: relative;
+      bottom:11.4rem;
+      left:270%;
     }
+    .texx6{
+      color: var(--white, #FFF);
   
-    .links {
-      display: 'isMobileMenuOpen ? 'flex' : 'none'';
-      flex-direction: column;
-      width: 100%;
-      text-align: center;
+      font-family: Space Grotesk;
+      font-size: 38px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 125%; /* 40px */
+      position: relative;
+      bottom:14.4rem;
+      left:370%;
     }
-  }
+ 
   

@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
-
+import React from 'react';
 // import '../styles/Navbar.css';
 
 export default function NavBar  ()  {
@@ -28,10 +28,10 @@ export default function NavBar  ()  {
   return (
    <>
 
-        <nav className="w-full bg-purple shadow border-2 border-black sticky top-0 ">
-          <div className="justify-center px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8 md:py-3 ">
+        <nav className="   what w-full bg-black shadow border-2 border-black sticky top-0 ">
+          <div className="justify-center px-4 mx-auto lg:max-w-7xl md:items-center md:flex ">
             <div>
-              <div className="flex items-center justify-between py-1 md:py-5 md:block">
+              <div className="flex items-center  md:block">
                 <div className="md:hidden">
                   <button
                     className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
@@ -40,8 +40,8 @@ export default function NavBar  ()  {
                 
                   </button>
                 </div>
-                <div className="md:hidden flex items-center gap-2" onClick={() => setNavbar(!navbar)} >
-               <div className="wow tex1 display-flex width- 1160px padding- 40px 60px flex-direction: column justify-content: center align-items: center gap-4px ">
+                <div className=" win flex items-center gap-2" onClick={() => setNavbar(!navbar)} >
+               <div className=" ">
                   <h2 className="tell">ABOUT</h2>
                  </div>
                 <div  onClick={() => setNavbar(!navbar)} >
@@ -62,11 +62,13 @@ export default function NavBar  ()  {
             </div>
             <div>
               <div
-                className={`flex-1 justify-self-center pb-4 mt-4 md:block md:pb-0 md:mt-0 ${navbar ? "block" : "hidden"
+                className={`flex-1  pb-4 mt-4 md:block md:pb-0 md:mt-0 ${navbar ? "block" : "hidden"
                   }`}
               >
-                <ul className="">
-                <li className=" texx  justify-content center  gap-4px">
+                <ul className="
+    
+">
+                <li className=" texx  justify-content  gap-4px">
                    <Link
                       href="https://www.nitj.ac.in/events_registration/hackmol/login"
                       
@@ -125,7 +127,7 @@ export default function NavBar  ()  {
           </div>
           {navbar && (
             <div className="md:hidden ">
-                 <div className="px-2 pt-2 pb-3 space-y-1 sm:px">
+                 <div className=" wish px-2 pt-2 pb-3 space-y-1 sm:px">
                     <div className=" heaven display-flex width- 1160px padding- 40px 60px flex-direction: column justify-content: center align-items: center gap-4px">
                  <div className="hell">
                     <Link
@@ -136,7 +138,7 @@ export default function NavBar  ()  {
                       </button>
                     </Link>
                     </div>
-                <div className=" hell text-black hover:bg-white hover:text-black rounded-lg p-2 ">
+                <div className=" hell text-black hover:bg-white hover:text-black rounded-lg p-2t ">
                  <Link
                       href="https://www.nitj.ac.in/events_registration/hackmol/login"
                       

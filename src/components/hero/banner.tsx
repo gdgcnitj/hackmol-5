@@ -7,15 +7,18 @@ import Link from 'next/link';
     return (
         <>
             <Script src="https://apply.devfolio.co/v2/sdk.js" defer async></Script>
-            <div className=" woow fixed display-flex padding-24px 60px  justify-content: space-between 
-align-items: center ">
+            <div className=" woow w-full bg-black shadow border-2 border-black sticky top-0 margin- 10px
+      padding- 40px h-full
+
+ ">
        <div className="gdsc ">
         <h4>GDSC</h4>
        
         <div className="nit  
  ">
  
-        <h6>NIT JALANDHAR</h6>
+        <h6 >NIT </h6>
+        <h6 className='jal'>JALANDHAR</h6>
        </div>
        </div>
       
