@@ -74,13 +74,13 @@ nav.navbar {
   @media screen and (max-width: 767px) {
    
   
-    .non__scrolled.navbar.navbar-expand-md.navbar-light {
+    /*.non__scrolled.navbar.navbar-expand-md.navbar-light {
       display: flex;
       flex-direction: row;
       align-items: center;
       background-color: #FFEB01;
       justify-content: space-between;
-    }
+    }*/
   
    /* .non__scrolled .navbar-options {
        display: none;
