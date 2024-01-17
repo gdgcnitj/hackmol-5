@@ -10,6 +10,7 @@ import FAQ from "../components/FAQ/FAQ";
 import PrizeSection from "../components/PrizeSection";
 import Track from "../components/track";
 import Footer from "../components/Footer";
+import HeroSection from "../components/Hero/HeroSection";
 
 
 
@@ -43,6 +44,7 @@ export default function Home() {
 </div>
 
 <NavBar/>
+<HeroSection />
 <PrizeSection />
       <Testimonies />
       <Rules />
