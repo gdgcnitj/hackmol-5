@@ -365,56 +365,55 @@ nav.navbar {
   @media (max-width: 900px) {
     .woow{
       display: flex;
-  width: 393px;
+  width: 375px;
   padding:38px 4px;
   justify-content: center;
   align-items: center;
   gap: 4px;
   background: var(--Black, #1F1F1F);
   
-  height: 13rem;
+  height: 7rem;
   
-    }
-  }@media (max-width: 900px) {
-    .wow  {
-      display: flex;
-      flex-wrap: wrap;
-      width: 393px;
-      padding: 5px 4px;
-      justify-content: space-between;
-      align-items: center;
-      background: var(--Black, #1F1F1F);
-      background-color: rgba(0, 0, 0, 4);
-    height: 0.1rem;
-  
-     
     }
   }
   @media (min-width: 700px) {
     .woow{
       display: flex;
-  width:1500px;
+  width:1520px;
   padding:38px 4px;
   justify-content: center;
   align-items: center;
   gap: 4px;
   background: var(--Black, #1F1F1F);
   
-  height: 14rem;
+  height: 8rem;
   position: relative;
   bottom: 8rem;
     }
   }
-  @media (min-width: 900px) {
-    .wow{
+ @media (min-width: 900px) {
+    .what {
+      height: 8rem;
+      margin-top: -14rem;
+      position: relative;
+      
+    }
+  }
+
+  @media (max-width: 900px) {
+    .what {
+     
+      margin-top: -4rem;
+      position: relative;
+      
+    }
+  }
+  @media (max-width: 900px) {
+    .man{
       display: flex;
+    position: relative;
+               
 
-
-flex-direction: column;
-justify-content: center;
-align-items: center;
-position: relative;
-      bottom: 4rem;; 
     }
   }
   
@@ -439,13 +438,14 @@ position: relative;
   .heaven
   {
     display: flex;
-  width: 393px;
-  padding: 21px 20px;
+  width: 380px;
+  padding: 21px 18px;
   justify-content: space-between;
   align-items: center;
-  background: var(--Black, #1F1F1F);
+ 
   position: relative;
-  bottom: 17rem;
+  top:0.5rem;
+  right: 1%;
   }
   @media (max-width: 900px) {
     .regist{
@@ -511,10 +511,13 @@ position: relative;
       align-items: center;
       /*trial*/
       display: flex;
-  width: 35%;
+  width: 29%;
   padding: 30px ;
   justify-content: center;
   align-items: center;
+  position: relative;
+  top:1.8rem;
+  
   
     }
   }
@@ -538,6 +541,7 @@ position: relative;
         
     }
   }
+
   
   .gdsc
   {
@@ -577,17 +581,17 @@ position: relative;
   .five
   {
     position: relative;
-    bottom:11rem;
+    bottom:8rem;
     left:37%;
   }
   .six{
    position: relative;
- bottom:8rem;
+ bottom:5rem;
  left: 2.2%;
   }
   .seven{
     position: relative;
-    bottom: 18.2rem;
+    bottom: 15.2rem;
     left:82%;
   }
   
@@ -613,7 +617,7 @@ font-style: normal;
 font-weight: 700;
 line-height: 125%; /* 40px */
 position: relative;
-top: 4rem;
+top: 3rem;
 right:500%;
   }
   .texx{
@@ -689,10 +693,4 @@ right:500%;
       left:370%;
     }
  
-    @media (min-width: 900px) {
-      .fli{
-        display: flex;
-       position: relative;
-          bottom: 20rem;
-      }
-    }
+  
