@@ -24,13 +24,19 @@ export default function Card({ judge }) {
         </div>
         <div className="flex relative flex-row items-center justify-between self-stretch">
           <div className="flex relative">
-            <img src={linkedin.src} alt="#" />
+            <a href={judge.linkedinLink} target="_blank" rel="noreferrer">
+              <img src={linkedin.src} alt="#" />
+            </a>
           </div>
           <div className="flex relative">
-            <img src={insta.src} alt="#" />
+            <a href={judge.instaLink} target="_blank" rel="noreferrer">
+              <img src={insta.src} alt="#" />
+            </a>
           </div>
           <div className="flex relative">
-            <img src={twitter.src} alt="#" />
+            <a href={judge.twitterLink} target="_blank" rel="noreferrer">
+              <img src={twitter.src} alt="#" />
+            </a>
           </div>
         </div>
       </div>
