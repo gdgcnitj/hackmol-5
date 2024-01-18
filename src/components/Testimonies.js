@@ -5,10 +5,10 @@ import style from "../styles/testimonie.module.css";
 function Testimonies() {
   return (
     <div className="flex flex-col text-center bg-[#1F1F1F] p-0 space-y-4  px-2vw h-fit mt-[-2px] pb-[10px] ">
-      <div className={` m-auto py-2  ${style.heading1} text-sm`}>
+      <div className={` m-auto py-2 font-Minecraft font-bold  ${style.heading1} lg:text-6xl text-3xl md:text-2xl sm:text-xl`}>
         PREVIOUS YEAR REVIEWS
       </div>
-      <div className=" flex relative ">
+      <div className=" flex relative font-Space-Grotesk">
         <div className=" relative md:top-[1vw]  top-[12vw]  lg:left-[50px] xl:left-[80px] z-[4] lg:top-[-2vw]">
           <img src={t1.src} alt="#" className="z-[4]" />
         </div>
@@ -45,7 +45,7 @@ function Testimonies() {
           </div>
         </div>
       </div>
-      <div className="flex relative">
+      <div className="flex relative font-Space-Grotesk">
         <div className="bg-white  text-center  border-4 border-pink-400  lg:w-[60vw] w-fit h-fit  lg:h-fit md:h-fit   relative   lg: right-[-20vw] md:pr-[12vw] lg:pr-[7vw] pl-[1vw] py-[3vw]  pr-[7vw] ">
           <div>
             <div className="flex text-xl sm:font-bold sm:text-xl   text-lg justify-end ">

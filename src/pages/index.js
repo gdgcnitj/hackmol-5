@@ -21,7 +21,7 @@ import JudgesSection from "../components/Judges/JudgesSection";
 export default function Home() {
   return (
     <div>
-      {/* <Banner2 />
+      <Banner2 />
       <div className="six">
         <Log />
       </div>
@@ -32,13 +32,12 @@ export default function Home() {
         <div className='hidden sm:flex items-center justify-center md:justify-start'>
           
             <button
-
               onClick={() => console.log('connect')} >
               <h3 className="mol">Register</h3>
               <Register />
             </button>
         </div>
-      </div> */}
+      </div>
       <NavBar />
       <HeroSection />
       <Marquee />

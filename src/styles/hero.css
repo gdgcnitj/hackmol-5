@@ -365,7 +365,6 @@ nav.navbar {
   @media (max-width: 900px) {
     .woow{
       display: flex;
-  width: 375px;
   padding:38px 4px;
   justify-content: center;
   align-items: center;
@@ -379,7 +378,6 @@ nav.navbar {
   @media (min-width: 700px) {
     .woow{
       display: flex;
-  width:1560px;
   padding:38px 4px;
   justify-content: center;
   align-items: center;

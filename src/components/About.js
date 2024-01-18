@@ -1,16 +1,22 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
+import image1 from '../../public/images/about1.jpg'
+import image2 from '../../public/images/about2.jpg'
+import image3 from '../../public/images/about3.jpg'
+import image4 from '../../public/images/about4.jpg'
+import image5 from '../../public/images/about5.jpg'
+import image6 from '../../public/images/about6.jpg'
 
 const About = (props) => {
   const [selectedImage, setSelectedImage] = useState(0);
 
   const images = [
-    `/images/about1.jpg`,
-    `/images/about2.jpg`,
-    `/images/about3.jpg`,
-    `/images/about4.jpg`,
-    `/images/about5.jpg`,
-    `/images/about6.jpg`,
+    image1,
+    image2,
+    image3,
+    image4,
+    image5,
+    image6
   ];
   const handleArrowClick = (direction) => {
     if (direction === 'left') {
@@ -32,7 +38,7 @@ const About = (props) => {
         <div className="Image w-full h-full flex-col justify-center items-center inline-flex p-10">
           <div className='w-4/5  h-[180px] sm:h-[250px] md:h-[500px] '>
             <Image
-              src={images[selectedImage]}
+              src={images[selectedImage].src}
               alt={`Image ${selectedImage + 1}`}
               width="1000"
               height="1000" className="w-full h-full  object-cover"
@@ -79,7 +85,7 @@ const About = (props) => {
               onClick={() => setSelectedImage(index)}
             >
               <Image
-                src={image}
+                src={image.src}
                 alt={`Thumbnail ${index + 1}`}
                 width={1000} // Adjust the width as needed
                 height={800} // Adjust the height as needed
