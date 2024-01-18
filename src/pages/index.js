@@ -5,6 +5,7 @@ import Log from "../components/hero/logo";
 import NavBar from "../components/hero/nav";
 import Link from 'next/link'
 import Testimonies from "../components/Testimonies";
+import  About from "../components/About";
 import Rules from "../components/Rules/Rules";
 import FAQ from "../components/FAQ/FAQ";
 import PrizeSection from "../components/PrizeSection";
@@ -47,6 +48,7 @@ export default function Home() {
 <HeroSection />
 <PrizeSection />
       <Testimonies />
+      <About/>
       <Rules />
       <Track/>
       <FAQ/>
