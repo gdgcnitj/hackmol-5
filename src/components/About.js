@@ -70,11 +70,11 @@ const About = (props) => {
 
         </div>
         </div>
-        <div className="flex overflow-x-auto my-6">
+        <div className="flex overflow-x-auto my-6 px-16">
           {images.map((image, index) => (
             <div
               key={index}
-              className={`w-full h-full mr-2 cursor-pointer opacity-70 hover:opacity-100 ${index === selectedImage ? 'border-2  border-lime-500' : ''
+              className={`w-full h-full mr-2 cursor-pointer opacity-70 hover:opacity-100 ${index === selectedImage ? 'border-2  border-[#61FF00]' : ''
                 }`}
               onClick={() => setSelectedImage(index)}
             >
