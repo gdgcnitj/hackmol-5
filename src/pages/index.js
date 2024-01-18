@@ -41,7 +41,7 @@ export default function Home() {
       </div> */}
       <NavBar />
       <HeroSection />
-      {/* <Marquee /> */}
+      <Marquee />
       <About />
       <PrizeSection />
       <Rules />

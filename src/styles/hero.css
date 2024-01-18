@@ -725,7 +725,6 @@ align-items: center;
   .marquee{
    display: flex;
    background: #79FF4A;
- width:1570px;
  height: 65px;
  padding: 7px 10px;
  justify-content: flex-start;
