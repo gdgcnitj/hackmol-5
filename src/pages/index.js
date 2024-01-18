@@ -11,6 +11,7 @@ import PrizeSection from "../components/PrizeSection";
 import Track from "../components/track";
 import Footer from "../components/Footer";
 import HeroSection from "../components/Hero/HeroSection";
+import JudgesSection from "../components/Judges/JudgesSection";
 
 
 
@@ -49,6 +50,7 @@ export default function Home() {
       <Testimonies />
       <Rules />
       <Track/>
+      <JudgesSection/>
       <FAQ/>
       <Footer/>
 
