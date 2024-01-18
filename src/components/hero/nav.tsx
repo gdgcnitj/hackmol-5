@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import React from 'react';
-// import '../styles/Navbar.css';
+import {useRouter} from "next/router"
 
 export default function NavBar  ()  {
 
@@ -68,9 +68,9 @@ export default function NavBar  ()  {
                 <ul className="
     
 ">
-                <li className=" texx  justify-content  gap-4px">
+                <li className=" texx text-black hover:bg-white hover:text-black rounded-lg p-2t justify-content  gap-4px">
                    <Link
-                      href="https://www.nitj.ac.in/events_registration/hackmol/login"
+                      href={'#schedule'}
                       
                     > <button onClick={() => console.log('connect')}>
                       SCHEDULE
@@ -79,42 +79,42 @@ export default function NavBar  ()  {
                     
                  
                 </li>
-                  <li className="texx2">
+                  <li className="texx2 text-black hover:bg-white hover:text-black rounded-lg p-2t ">
                     <Link
-                      href='#rules'
+                      href={'#prizes'}
                       scroll={false}
                     >
                      PRIZES
                     </Link>
                   </li>
-                   <li className="texx3">
+                   <li className="texx3 text-black hover:bg-white hover:text-black rounded-lg p-2t">
                     <Link
-                      href={'#schedule'}
+                      href={'#rules'}
                       scroll={false}
                     >
                      RULES
                     </Link>
                   </li>  
-                   <li className="texx4">
+                   <li className="texx4 text-black hover:bg-white hover:text-black rounded-lg p-2t">
                     <Link
-                      href={'#prizes'}
+                      href={'#hackthon tracks'}
                       scroll={false}
                     >
                      TRACKS
                     </Link>
                   </li> 
 
-                  <li className="texx5">
+                  <li className="texx5 text-black hover:bg-white hover:text-black rounded-lg p-2t">
                     <Link
-                      href={'#contact'}
+                      href={'#judges'}
                       scroll={false}
                     >
                       JUDGES
                     </Link>
                   </li>
-                  <li className="texx6">
+                  <li className="texx6 text-black hover:bg-white hover:text-black rounded-lg p-2t">
                     <Link
-                      href={'#contact'}
+                      href={'#faq'}
                       scroll={false}
                     >
                       FAQS
@@ -129,9 +129,9 @@ export default function NavBar  ()  {
             <div className="md:hidden ">
                  <div className=" wish px-2 pt-2 pb-3 space-y-1 sm:px">
                     <div className=" heaven display-flex width- 1160px padding- 40px 60px flex-direction: column justify-content: center align-items: center gap-4px">
-                 <div className="hell">
+                 <div className="hell text-black hover:bg-white hover:text-black rounded-lg p-2t">
                     <Link
-                      href="https://www.nitj.ac.in/events_registration/hackmol/login"
+                      href="#about"
                       
                     > <button onClick={() => console.log('connect')}>
                       About
@@ -140,7 +140,7 @@ export default function NavBar  ()  {
                     </div>
                 <div className=" hell text-black hover:bg-white hover:text-black rounded-lg p-2t ">
                  <Link
-                      href="https://www.nitj.ac.in/events_registration/hackmol/login"
+                      href='#schedule'
                       
                     > <button onClick={() => console.log('connect')}>
                       Schedule
@@ -149,45 +149,45 @@ export default function NavBar  ()  {
                     
                  </div>
                
-                  <div className="hell">
+                  <div className="hell text-black hover:bg-white hover:text-black rounded-lg p-2t">
                     <Link
-                      href='#rules'
-                      scroll={false}
-                    >
-                     Prizes
+                      href='#prizes'>
+                      <button onClick={() => console.log('connect')}>
+                      Prizes
+                      </button>
                     </Link>
                   </div>
-                   <div className="hell">
+                   <div className="hell text-black hover:bg-white hover:text-black rounded-lg p-2t ">
                     <Link
-                      href={'#schedule'}
+                      href={'#rules'}
                       scroll={false}
                     >
                      Rules
                     </Link>
                   </div>  
-                   <div className="hell">
+                   <div className="hell text-black hover:bg-white hover:text-black rounded-lg p-2t">
                     <Link
-                      href={'#prizes'}
+                      href={'#tracks'}
                       scroll={false}
                     >
                      Tracks
                     </Link>
                   </div> 
 
-                  <div className="hell">
+                  <div className="hell text-black hover:bg-white hover:text-black rounded-lg p-2t">
                     <Link
-                      href={'#contact'}
+                      href={'#judges'}
                       scroll={false}
                     >
                       Judges
                     </Link>
                   </div>
-                  <div className="hell">
+                  <div className="hell text-black hover:bg-white hover:text-black rounded-lg p-2t">
                     <Link
-                      href={'#contact'}
+                      href={'#FAQ'}
                       scroll={false}
                     >
-                      FAQS
+                      FAQ
                     </Link>
                   </div>
                   </div>
