@@ -1,5 +1,5 @@
 {
-  "name": "hackmol4",
+  "name": "hackmol5.0",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -22,11 +22,11 @@
     "swiper": "^8.4.5"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.13",
+    "autoprefixer": "^10.4.16",
     "eslint": "8.30.0",
     "eslint-config-next": "13.0.7",
-    "postcss": "^8.4.20",
-    "tailwindcss": "^3.2.4"
+    "postcss": "^8.4.33",
+    "tailwindcss": "^3.4.1"
   },
   "homepage": "https://hackmol.tech/"
 }
