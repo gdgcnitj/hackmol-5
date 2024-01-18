@@ -1,9 +1,10 @@
-import Banner2 from "../components/hero/banner";
-import Hackmol from   "../components/hero/img";
-import Register from  "../components/hero/reg";
-import Log from "../components/hero/logo";
-import NavBar from "../components/hero/nav";
+import Banner2 from "../components/Hero/banner";
+import Hackmol from   "../components/Hero/img";
+import Register from  "../components/Hero/reg";
+import Log from "../components/Hero/logo";
+import NavBar from "../components/Hero/nav";
 import Link from 'next/link'
+import Marquee from "../components/Hero/marquee";
 import Testimonies from "../components/Testimonies";
 import Rules from "../components/Rules/Rules";
 import FAQ from "../components/FAQ/FAQ";
@@ -45,6 +46,7 @@ export default function Home() {
 
 <NavBar/>
 <HeroSection />
+<Marquee/>
 <PrizeSection />
       <Testimonies />
       <Rules />

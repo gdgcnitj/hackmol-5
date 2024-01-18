@@ -7,7 +7,7 @@ import Link from 'next/link';
     return (
         <>
             <Script src="https://apply.devfolio.co/v2/sdk.js" defer async></Script>
-            <div className=" woow w-full bg-black shadow border-2 border-black sticky top-0 margin- 10px
+            <div className=" woow w-full bg-black shadow border-2 border-black  top-0 margin- 10px
       padding- 40px h-full
 
  ">

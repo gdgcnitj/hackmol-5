@@ -379,7 +379,7 @@ nav.navbar {
   @media (min-width: 700px) {
     .woow{
       display: flex;
-  width:1520px;
+  width:1560px;
   padding:38px 4px;
   justify-content: center;
   align-items: center;
@@ -428,12 +428,13 @@ nav.navbar {
     color: var(--white, #FFF);
    
     font-family: Space Grotesk;
-    font-size: 15px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 700;
     line-height: 125%;
-    letter-spacing: 0.2px;
+  word-spacing: 12px;
     justify-content: space-between;
+
   }
   .heaven
   {
@@ -692,5 +693,56 @@ right:500%;
       bottom:14.4rem;
       left:370%;
     }
- 
-  
+ .bulb{
+  color: #000;
+text-align: center;
+font-family: Minecrafter;
+font-size: 23px;
+font-style: normal;
+font-weight: 900;
+line-height: 100%; /* 23px */
+padding: 110px;
+margin-top: 2%;
+
+  overflow: hidden;
+  animation: marquee-animation 2s linear infinite;
+  animation-iteration-count:marquee-animation infinite;
+  justify-content: flex-start;
+ }
+ @media (max-width: 900px) {
+ .marquee{
+  display: flex;
+  background: #79FF4A;
+width: 100%;
+height: 65px;
+padding: 7px 10px;
+justify-content: flex-start;
+align-items: center;
+
+ }
+}
+@media (min-width: 900px) {
+  .marquee{
+   display: flex;
+   background: #79FF4A;
+ width:1570px;
+ height: 65px;
+ padding: 7px 10px;
+ justify-content: flex-start;
+ align-items: center;
+
+  }
+ }
+ @keyframes marquee-animation {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+  .bo{
+    position: relative;
+    bottom: 1.8rem;
+    left:99%;
+  }
