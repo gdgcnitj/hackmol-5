@@ -9,25 +9,25 @@ function Rules() {
   const rules = [
     {
       color: "#FF8EFF",
-      rule: "Each team would comprise of 1 to 4 members",
+      rule: "Each team would comprise of 1 to 4 members. Team Composition is crucial for collaborative work and fair competition",
       align: "right",
       svg_url: rec1.src,
     },
     {
       color: "#006CEF",
-      rule: "Team members could be from different institutions as well",
+      rule: "Team members could be from different institutions as well. Collab on different ideas and different technical domains , showcase your techstack and win this Hackmol edition",
       align: "right",
       svg_url: rec2.src,
     },
     {
       color: "#00F26D",
-      rule: "The registration begins on 15th Jan,2023 and ends on 5th Feb,2023",
+      rule: "The registration begins on 15th Jan,2023 and ends on 5th Feb,2023. No extra extensions to be given , kindly fill team details with utmost attention.",
       align: "left",
       svg_url: rec3.src,
     },
     {
       color: "#FECB4A",
-      rule: "After registration, you have to submit your idea via PPT before 10th Feb 2023",
+      rule: "After registration, you have to submit your idea via PPT before 10th Feb 2023.Qualifying students will be shared the result via registered details.",
       align: "left",
       svg_url: rec4.src,
     },
@@ -45,10 +45,7 @@ function Rules() {
               RULES
             </div>
             <div className="w-3/4 rules__desc mb-10 text-black font-Space-Grotesk text-center">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat
-              facilis vero sed consequatur porro aut ducimus culpa. Quaerat
-              animi molestiae incidunt quisquam quae dignissimos, sequi ullam
-              ratione veniam, laboriosam ab.
+              Each Participant must adhere to Code of Conduc, Registraction , Elgibility , Judging Criteria and Disqualification as follows. 
             </div>
             <div className="md:w-3/4 space-y-2">
               {rules.map((ele,index) => (
