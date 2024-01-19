@@ -1,24 +1,22 @@
 @font-face {
-  font-family: Minecrafter;
-  src: url(../../public/MinecraftRegular-Bmg3.otf);
-}
-.heading1 {
-  display: flex;
-  width: 90vw;
-  height: 200px;
-  flex-direction: column;
-  justify-content: center;
-  color: #fff;
-  text-align: center;
-  /* Minecrafter Regular/7xl */
-  font-family: "Minecrafter", sans-serif;
-  font-size: 60px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 100%;
-  /* 72px */
-}
-
-.font {
-  font-family: Space Grotesk;
-}
+    font-family: Minecrafter;
+    src: url(../../public/MinecraftRegular-Bmg3.otf);
+  }
+  .heading1 {
+    display: flex;
+    width: 90vw;
+    height: 200px;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    /* font-size: 60px; */
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    /* 72px */
+  }
+  
+  .font {
+    font-family: Space Grotesk;
+  }

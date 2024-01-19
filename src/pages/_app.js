@@ -1,4 +1,5 @@
 import '../styles/globals.css'
+import '../styles/hero.css'
 import 'swiper/css';
 function MyApp({ Component, pageProps }) {
   return (
