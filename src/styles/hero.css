@@ -437,14 +437,10 @@ nav.navbar {
   .heaven
   {
     display: flex;
-  width: 380px;
-  padding: 21px 18px;
+  padding: 15px 15px;
   justify-content: space-between;
   align-items: center;
- 
-  position: relative;
-  top:0.5rem;
-  right: 1%;
+    
   }
   @media (max-width: 900px) {
     .regist{

@@ -10,8 +10,8 @@ function HeroSection() {
 
   return (
     <div
-      className="relative w-full h-[1972px] bg-cover overflow-y-auto"
-      style={{ backgroundImage: `url(${HeroSectionImg.src})` }}
+      className="relative w-full h-[2450px] no-repeat bg-cover bg-center"
+      style={{ backgroundImage: `url(${HeroSectionImg.src})`, }}
     >
       <div className="flex flex-col justify-center items-center relative top-[6rem]">
         <div className="flex relative py-8">
