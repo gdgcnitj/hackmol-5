@@ -30,7 +30,7 @@ let FAQ = function () {
     };
 
     return (
-      <div className="w-full h-full px-10 py-6 bg-stone-900 justify-start items-center ">
+      <div id='FAQ' className="w-full h-full px-10 py-6 bg-stone-900 justify-start items-center ">
        <div className="flex-col w-full items-start gap-14">
          <div className="flex flex-col items-start gap-6 ">
       <div className="w-full self-stretch h-full py-2.5 border-b border-white flex-col items-start gap-5">

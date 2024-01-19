@@ -6,7 +6,7 @@ import rightArrow from "../../../public/images/rightArrow.svg";
 export default function JudgesSection() {
   return (
     <>
-      <div className="relative h-fit w-full">
+      <div id='judges' className="relative h-fit w-full">
         <div className="relative w-[80%] h-fit flex flex-col justify-center items-center left-[10%]">
           <div className="flex relative text-center font-Minecraft font-normal text-7xl pt-20 pb-8">
             JUDGES

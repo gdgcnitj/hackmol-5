@@ -5,7 +5,7 @@ const Track = (props) => {
         <>
        {/* <div className={`${styles.container} ${styles.heading}`}>HACKTHON TRACKS</div> */}
       
-    <div className={styles.container}>
+    <div id='tracks' className={styles.container}>
      <div className={styles.heading}>HACKTHON TRACKS<br/><br/></div>
      <div className={styles.bottom}>
      <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">

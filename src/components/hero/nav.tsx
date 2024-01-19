@@ -72,9 +72,8 @@ export default function NavBar  ()  {
                    <Link
                       href={'#schedule'}
                       
-                    > <button onClick={() => console.log('connect')}>
+                    > 
                       SCHEDULE
-                      </button>
                     </Link>
                     
                  
@@ -127,9 +126,9 @@ export default function NavBar  ()  {
           </div>
           {navbar && (
             <div className="md:hidden ">
-                 <div className=" wish px-2 pt-2 pb-3 space-y-1 sm:px">
-                    <div className=" heaven display-flex width- 1160px padding- 40px 60px flex-direction: column justify-content: center align-items: center gap-4px">
-                 <div className="hell text-black hover:bg-white hover:text-black rounded-lg p-2t">
+                 <div className="px-2 sm:px">
+                    <div className=" heaven flex flex-col justify-center items-center gap-4">
+                 <div className="hell text-black hover:bg-white px-2 hover:text-black rounded-lg p-2t">
                     <Link
                       href="#about"
                       
@@ -138,7 +137,7 @@ export default function NavBar  ()  {
                       </button>
                     </Link>
                     </div>
-                <div className=" hell text-black hover:bg-white hover:text-black rounded-lg p-2t ">
+                <div className=" hell text-black hover:bg-white px-2 hover:text-black rounded-lg p-2t ">
                  <Link
                       href='#schedule'
                       
@@ -149,7 +148,7 @@ export default function NavBar  ()  {
                     
                  </div>
                
-                  <div className="hell text-black hover:bg-white hover:text-black rounded-lg p-2t">
+                  <div className="hell text-black hover:bg-white px-2 hover:text-black rounded-lg p-2t">
                     <Link
                       href='#prizes'>
                       <button onClick={() => console.log('connect')}>
@@ -157,7 +156,7 @@ export default function NavBar  ()  {
                       </button>
                     </Link>
                   </div>
-                   <div className="hell text-black hover:bg-white hover:text-black rounded-lg p-2t ">
+                   <div className="hell text-black hover:bg-white px-2 hover:text-black rounded-lg p-2t ">
                     <Link
                       href={'#rules'}
                       scroll={false}
@@ -165,7 +164,7 @@ export default function NavBar  ()  {
                      Rules
                     </Link>
                   </div>  
-                   <div className="hell text-black hover:bg-white hover:text-black rounded-lg p-2t">
+                   <div className="hell text-black hover:bg-white px-2 hover:text-black rounded-lg p-2t">
                     <Link
                       href={'#tracks'}
                       scroll={false}
@@ -174,7 +173,7 @@ export default function NavBar  ()  {
                     </Link>
                   </div> 
 
-                  <div className="hell text-black hover:bg-white hover:text-black rounded-lg p-2t">
+                  <div className="hell text-black hover:bg-white px-2 hover:text-black rounded-lg p-2t">
                     <Link
                       href={'#judges'}
                       scroll={false}
@@ -182,7 +181,7 @@ export default function NavBar  ()  {
                       Judges
                     </Link>
                   </div>
-                  <div className="hell text-black hover:bg-white hover:text-black rounded-lg p-2t">
+                  <div className="hell text-black hover:bg-white px-2 hover:text-black rounded-lg p-2t">
                     <Link
                       href={'#FAQ'}
                       scroll={false}

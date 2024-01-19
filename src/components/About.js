@@ -27,7 +27,7 @@ const About = (props) => {
   }
 
   return (
-    <div className="AboutHackmolSection p-5 w-full h-full px-10  bg-[#1F1F1F]">
+    <div id='about' className="AboutHackmolSection p-5 w-full h-full px-10  bg-[#1F1F1F]">
       <div className="Content w-full h-full">
         <div className='p-5'>
         <div className="HeadingTextContainer flex-col justify-center items-center gap-8 py-6">
