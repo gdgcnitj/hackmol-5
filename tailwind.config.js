@@ -20,6 +20,8 @@ module.exports = {
         "Space-Grotesk": ["Space Grotesk", "sans-serif"],
         "Plus-Jakarta": ["Plus Jakarta Sans", "sans-serif"],
         "Red-Hat-Display": ["Red Hat Display", "sans-serif"],
+        "Minecrafter": ["Minecrafter", "sans-serif"],
+        "Minecraft": ["Minecraft", "Minecrafter", "sans-serif"],
       },
       boxShadow: {
         "2xl": "3px 3px black",
