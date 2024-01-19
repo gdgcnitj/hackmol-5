@@ -5,6 +5,7 @@ import Log from "../components/hero/logo";
 import NavBar from "../components/hero/nav";
 import Marquee from "../components/Hero/marquee";
 import Testimonies from "../components/Testimonies";
+import Timeline from "../components/Timeline";
 import About from "../components/About";
 import Rules from "../components/Rules/Rules";
 import FAQ from "../components/FAQ/FAQ";
@@ -20,6 +21,7 @@ import JudgesSection from "../components/Judges/JudgesSection";
 export default function Home() {
   return (
     <div>
+
       <Banner2 />
       <div className="six">
         <Log />
@@ -41,6 +43,7 @@ export default function Home() {
       <HeroSection />
       <Marquee />
       <About />
+      <Timeline />
       <PrizeSection />
       <Rules />
       <Track />
