@@ -9,23 +9,14 @@ import Track from "../components/track";
 import Footer from "../components/Footer";
 import HeroSection from "../components/Hero/HeroSection";
 import JudgesSection from "../components/Judges/JudgesSection";
-import { useEffect, useLayoutEffect } from "react";
 import Header from "../components/Hero/Header";
 import NavBar from "../components/Hero/NavBar";
-import Script from "next/script";
 
 export default function Home() {
   return (
     <div>
       <Header />
       <NavBar />
-      {/* <Banner2 /> */}
-      {/* <div className="six"></div>
-      <div className="five"></div>
-      <div className="seven">
-        <div className="hidden sm:flex items-center justify-center md:justify-start"></div>
-      </div> */}
-      {/* <NavBar /> */}
       <HeroSection />
       <Marquee />
       <About />

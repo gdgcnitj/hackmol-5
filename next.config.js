@@ -4,7 +4,7 @@ const nextConfig = {
   swcMinify: true,
   serverRuntimeConfig: {
     // Will only be available on the server side
-    domain: 'https://hackmol.tech',
+    domain: 'https://hackmol.com',
   },
 }
 
