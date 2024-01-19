@@ -1,7 +1,6 @@
 // _dovument.js nextjs
 import { Html, Head, Main, NextScript } from "next/document";
 import Script from "next/script";
-import { useLayoutEffect } from "react";
 
 export default function Document() {
         return (
@@ -40,7 +39,6 @@ export default function Document() {
                     <meta name="twitter:domain" content="https://hackmol4.tech" />
                     <meta name="twitter:app:name:iphone" content="HackMOL 4.0" />
                     <meta name="twitter:app:name:ipad" content="HackMOL 4.0" />
-                    
 
                 </Head>
 

@@ -1,5 +1,3 @@
-import "../styles/globals.css";
-import "../styles/hero.css";
 import "swiper/css";
 import Head from "next/head";
 
