@@ -16,7 +16,7 @@ import clock from "../../public/images/timeline/clock.svg";
 function Timeline() {
   return (
     <>
-      <div id='schedule' className={`px-[58.75px] max-[1048px]:px-[30px]   py-[40px] `}>
+      <div id='schedule' className={`px-[58.75px] max-[1048px]:px-[30px] mb-16   py-[30px] `}>
         <div className={` m-auto  ${style2.heading1}  text-black text-sm`}>
           EVENT TIMELINE
         </div>
