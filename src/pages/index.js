@@ -8,8 +8,9 @@ import PrizeSection from "../components/PrizeSection";
 export default function Home() {
   return (
     <div>
-      <PrizeSection />
       <Timeline />
+      <PrizeSection />
+
       <Testimonies />
       <Rules />
       <FAQ />
