@@ -22,6 +22,7 @@ module.exports = {
         "Red-Hat-Display": ["Red Hat Display", "sans-serif"],
         "Minecrafter": ["Minecrafter", "sans-serif"],
         "Minecraft": ["Minecraft", "Minecrafter", "sans-serif"],
+        "Poppins": ["Poppins", "sans-serif"]
       },
       boxShadow: {
         "2xl": "3px 3px black",

@@ -33,6 +33,11 @@ body {
   margin: 0;
  }
 
+::selection{
+  color: green;
+  background-color: yellow;
+}
+
 
 
 
