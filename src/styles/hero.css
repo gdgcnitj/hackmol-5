@@ -469,11 +469,7 @@ nav.navbar.scrolled .header-name {
     }
   }
 }
-@media (min-width: 900px) {
-  svg {
-    display: none;
-  }
-}
+
 
 @media (max-width: 900px) {
   .lo {
