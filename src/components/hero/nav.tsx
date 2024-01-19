@@ -71,7 +71,7 @@ export default function NavBar  ()  {
                 <li className=" texx text-black hover:bg-white hover:text-black rounded-lg p-2t justify-content  gap-4px">
                    <Link
                       href={'#schedule'}
-                      
+                      className='w-full flex justify-center items-center'
                     > 
                       SCHEDULE
                     </Link>
@@ -82,6 +82,7 @@ export default function NavBar  ()  {
                     <Link
                       href={'#prizes'}
                       scroll={false}
+                      className='w-full flex justify-center items-center'
                     >
                      PRIZES
                     </Link>
@@ -90,6 +91,7 @@ export default function NavBar  ()  {
                     <Link
                       href={'#rules'}
                       scroll={false}
+                      className='w-full flex justify-center items-center'
                     >
                      RULES
                     </Link>
@@ -98,6 +100,7 @@ export default function NavBar  ()  {
                     <Link
                       href={'#hackthon tracks'}
                       scroll={false}
+                      className='w-full flex justify-center items-center'
                     >
                      TRACKS
                     </Link>
@@ -107,6 +110,7 @@ export default function NavBar  ()  {
                     <Link
                       href={'#judges'}
                       scroll={false}
+                      className='w-full flex justify-center items-center'
                     >
                       JUDGES
                     </Link>
@@ -115,6 +119,7 @@ export default function NavBar  ()  {
                     <Link
                       href={'#faq'}
                       scroll={false}
+                      className='w-full flex justify-center items-center'
                     >
                       FAQS
                     </Link>
@@ -131,7 +136,6 @@ export default function NavBar  ()  {
                  <div className="hell text-black hover:bg-white px-2 hover:text-black rounded-lg p-2t">
                     <Link
                       href="#about"
-                      
                     > <button onClick={() => console.log('connect')}>
                       About
                       </button>
