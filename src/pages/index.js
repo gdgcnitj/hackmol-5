@@ -1,8 +1,3 @@
-import Banner2 from "../components/hero/banner";
-import Hackmol from "../components/hero/img";
-import Register from "../components/hero/reg";
-import Log from "../components/hero/logo";
-import NavBar from "../components/hero/nav";
 import Marquee from "../components/Hero/marquee";
 import Testimonies from "../components/Testimonies";
 import Timeline from "../components/Timeline";
@@ -14,33 +9,28 @@ import Track from "../components/track";
 import Footer from "../components/Footer";
 import HeroSection from "../components/Hero/HeroSection";
 import JudgesSection from "../components/Judges/JudgesSection";
+import { useEffect } from "react";
+import Header from "../components/Hero/Header";
+import NavBar from "../components/Hero/NavBar";
 import Script from "next/script";
 
-
-
-
 export default function Home() {
+  useEffect(() => {
+    document.body.style.zoom = "75%";
+  });
+
   return (
     <div>
-<Script src="https://apply.devfolio.co/v2/sdk.js" defer async    ></Script>
-      <Banner2 />
-      <div className="six">
-        <Log />
-      </div>
-      <div className='five'>
-        <Hackmol />
-      </div>
-      <div className="seven">
-        <div className='hidden sm:flex items-center justify-center md:justify-start'>
-          
-            <button
-              onClick={() => console.log('connect')} >
-              <h3 className="mol">Register</h3>
-              <Register />
-            </button>
-        </div>
-      </div>
+      <Header />
+      <hr></hr>
       <NavBar />
+      {/* <Banner2 /> */}
+      {/* <div className="six"></div>
+      <div className="five"></div>
+      <div className="seven">
+        <div className="hidden sm:flex items-center justify-center md:justify-start"></div>
+      </div> */}
+      {/* <NavBar /> */}
       <HeroSection />
       <Marquee />
       <About />
@@ -52,7 +42,6 @@ export default function Home() {
       <Testimonies />
       <FAQ />
       <Footer />
-
     </div>
   );
 }
