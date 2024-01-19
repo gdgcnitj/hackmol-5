@@ -9,20 +9,15 @@ import Track from "../components/track";
 import Footer from "../components/Footer";
 import HeroSection from "../components/Hero/HeroSection";
 import JudgesSection from "../components/Judges/JudgesSection";
-import { useEffect } from "react";
+import { useEffect, useLayoutEffect } from "react";
 import Header from "../components/Hero/Header";
 import NavBar from "../components/Hero/NavBar";
 import Script from "next/script";
 
 export default function Home() {
-  useEffect(() => {
-    document.body.style.zoom = "75%";
-  });
-
   return (
     <div>
       <Header />
-      <hr></hr>
       <NavBar />
       {/* <Banner2 /> */}
       {/* <div className="six"></div>
