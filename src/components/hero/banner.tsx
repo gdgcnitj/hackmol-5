@@ -21,14 +21,6 @@ import Link from 'next/link';
        </div>
       
             <div className=" flex justify-center w-full">
-                
-                    
-                   
-                    
-                    
-                  {/*     <img className="w-10/12 sm:w-8/12 md:w-10/12" src={Hackmol.src} alt="banner" />*/}
-                    
-                      
                   </div>
                   </div>
                   </>       

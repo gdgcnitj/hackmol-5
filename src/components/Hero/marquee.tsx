@@ -14,7 +14,7 @@ const marqueee = () => {
           direction='left'
           className='overflow-hidden'
           gradient={false}>
-          {Array(5, 5, 5, 5, 5, 5).map((data, i) => {
+          {Array(5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5).map((data, i) => {
             return (
               <div key={i} className='flex justify-center items-center text-black font-Minecraft font-bold space-x-12 px-6'>
                 <div className='lg:text-[20px] md:text-[15px] sm:text-[5px] font-bold py-4'>

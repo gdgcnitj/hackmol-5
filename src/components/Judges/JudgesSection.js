@@ -1,4 +1,3 @@
-import React from "react";
 import CardHolder from "./CardHolder";
 import leftArrow from "../../../public/images/leftArrow.svg";
 import rightArrow from "../../../public/images/rightArrow.svg";

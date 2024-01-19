@@ -41,8 +41,13 @@ export default function NavBar  ()  {
                   </button>
                 </div>
                 <div className=" win flex items-center gap-2" onClick={() => setNavbar(!navbar)} >
-               <div className=" ">
-                  <h2 className="tell">ABOUT</h2>
+               <div className="">
+                <Link
+                href={'#about'}
+                className='w-full flex justify-center items-center'
+                >
+                  <h2 className="tell px-2 text-black hover:bg-white hover:text-black rounded-lg p-2t justify-content  gap-4px">ABOUT</h2>
+                </Link>
                  </div>
                 <div  onClick={() => setNavbar(!navbar)} >
                   <h2 className="  man text-lg md:text-2xl font-bold text-white"   >Menu</h2>
@@ -68,7 +73,7 @@ export default function NavBar  ()  {
                 <ul className="
     
 ">
-                <li className=" texx text-black hover:bg-white hover:text-black rounded-lg p-2t justify-content  gap-4px">
+                <li className=" texx text-black hover:bg-white hover:text-black rounded-lg p-2t justify-content px-2">
                    <Link
                       href={'#schedule'}
                       className='w-full flex justify-center items-center'
