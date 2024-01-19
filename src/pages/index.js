@@ -3,7 +3,6 @@ import Hackmol from "../components/hero/img";
 import Register from "../components/hero/reg";
 import Log from "../components/hero/logo";
 import NavBar from "../components/hero/nav";
-import Link from 'next/link'
 import Marquee from "../components/Hero/marquee";
 import Testimonies from "../components/Testimonies";
 import About from "../components/About";

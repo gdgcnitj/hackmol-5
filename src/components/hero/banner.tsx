@@ -10,14 +10,13 @@ import Link from 'next/link';
       padding- 40px h-full
 
  ">
-       <div className="gdsc ">
+       <div className="gdsc">
         <h4>GDSC</h4>
        
         <div className="nit  
  ">
  
-        <h6 >NIT </h6>
-        <h6 className='jal'>JALANDHAR</h6>
+        <div className='w-max'>NIT JALANDHAR</div>
        </div>
        </div>
       
