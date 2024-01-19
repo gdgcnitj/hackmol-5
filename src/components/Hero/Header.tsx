@@ -1,5 +1,5 @@
 import React from "react";
-import Hackmol from "./img";
+import Hackmol from "../hero/img";
 import Image from "next/image";
 
 export default function Header() {
