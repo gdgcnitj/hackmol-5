@@ -12,6 +12,7 @@ import JudgesSection from "../components/Judges/JudgesSection";
 import { useEffect } from "react";
 import Header from "../components/Hero/Header";
 import NavBar from "../components/Hero/NavBar";
+import Script from "next/script";
 
 export default function Home() {
   useEffect(() => {

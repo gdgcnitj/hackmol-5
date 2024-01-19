@@ -1,4 +1,3 @@
-import React from "react";
 
 function RulesPoint({ Desc, color, alignment, icon }) {
   const getAlign = () => {

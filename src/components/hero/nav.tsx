@@ -45,6 +45,31 @@ export default function NavBar() {
                   <h2 className="  man text-lg md:text-2xl font-bold text-white">
                     Menu
                   </h2>
+   <>
+
+        <nav className="   what w-full bg-black shadow border-2 border-black sticky top-0 ">
+          <div className="justify-center px-4 mx-auto lg:max-w-7xl md:items-center md:flex ">
+            <div>
+              <div className="flex items-center  md:block">
+                <div className="md:hidden">
+                  <button
+                    className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
+                    onClick={() => setNavbar(!navbar)}
+                  >
+                
+                  </button>
+                </div>
+                <div className=" win flex items-center gap-2" onClick={() => setNavbar(!navbar)} >
+               <div className="">
+                <Link
+                href={'#about'}
+                className='w-full flex justify-center items-center'
+                >
+                  <h2 className="tell px-2 text-black hover:bg-white hover:text-black rounded-lg p-2t justify-content  gap-4px">ABOUT</h2>
+                </Link>
+                 </div>
+                <div  onClick={() => setNavbar(!navbar)} >
+                  <h2 className="  man text-lg md:text-2xl font-bold text-white"   >Menu</h2>
                   {navbar ? (
                     <svg
                       className=" sign"
@@ -99,6 +124,12 @@ export default function NavBar() {
                       href={"#schedule"}
                       className="w-full flex justify-center items-center"
                     >
+">
+                <li className=" texx text-black hover:bg-white hover:text-black rounded-lg p-2t justify-content px-2">
+                   <Link
+                      href={'#schedule'}
+                      className='w-full flex justify-center items-center'
+                    > 
                       SCHEDULE
                     </Link>
                   </li>

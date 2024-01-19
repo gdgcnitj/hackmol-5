@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Image from 'next/image';
 import image1 from '../../public/images/about1.jpg'
 import image2 from '../../public/images/about2.jpg'
@@ -9,7 +9,6 @@ import image6 from '../../public/images/about6.jpg'
 
 const About = (props) => {
   const [selectedImage, setSelectedImage] = useState(0);
-
   const images = [
     image1,
     image2,

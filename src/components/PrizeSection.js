@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "../styles/prizeSection.module.css";
 function List(props){
   return(
