@@ -113,7 +113,7 @@ flex-shrink: 0;
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    gap: 82px;
+    gap: 110px;
 }
 
 .left_card {
@@ -122,7 +122,7 @@ flex-shrink: 0;
 }
 
 .left_card_img {
-    width: 280px;
+    width: 295px;
     height: 169px;
     flex-shrink: 0;
     /* background: lightgray 0px 0px / 100% 100% no-repeat; */
@@ -132,7 +132,7 @@ flex-shrink: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 280px;
+    width: 295px;
     height: 381.267px;
     flex-shrink: 0;
     background: url("../../public/images/lborder.png");
@@ -143,7 +143,7 @@ flex-shrink: 0;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    width: 260.486px;
+    width: 270.486px;
     height: 360.855px;
     flex-shrink: 0;
     background: #FFF;
@@ -176,7 +176,7 @@ flex-shrink: 0;
 
 .left_card_list {
     list-style: none;
-    width: 235px;
+    width: 245px;
     color: var(--Black, #1F1F1F);
     font-family: Space Grotesk;
     font-size: 14px;
@@ -261,7 +261,7 @@ flex-shrink: 0;
 }
 
 .right_card_img {
-    width: 280px;
+    width: 295px;
     height: 127.575px;
     flex-shrink: 0;
     /* background: lightgray 0px 0px / 100% 100% no-repeat; */
@@ -271,7 +271,7 @@ flex-shrink: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 280px;
+    width: 295px;
     height: 381.267px;
     flex-shrink: 0;
     background: url("../../public/images/rborder.png");
@@ -282,7 +282,7 @@ flex-shrink: 0;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    width: 260.486px;
+    width: 270.486px;
     height: 360.855px;
     flex-shrink: 0;
     background: var(--white, #FFF);
@@ -315,7 +315,7 @@ flex-shrink: 0;
 
 .right_card_list {
     list-style: none;
-    width: 235px;
+    width: 245px;
     color: #1F1F1F;
     font-family: Space Grotesk;
     font-size: 13px;
@@ -325,7 +325,7 @@ flex-shrink: 0;
 
 }
 
-@media only screen and (max-width: 1050px) {
+@media only screen and (max-width: 1000px) {
 
     .card_container {
         width: 80%;
