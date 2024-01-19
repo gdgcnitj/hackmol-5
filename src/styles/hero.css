@@ -328,7 +328,7 @@ nav.navbar.scrolled .header-name {
     flex-shrink: 0;
     position: relative;
     bottom: 6.8rem;
-=======
+  }
   
   .navbar-text button span {
     z-index: 1;
