@@ -1,4 +1,3 @@
-import React from "react";
 
 function RulesPoint({ Desc, color, alignment, icon }) {
   const getAlign = () => {
@@ -24,7 +23,7 @@ function RulesPoint({ Desc, color, alignment, icon }) {
           borderStyle: "solid",
         }}
       >
-        <div className={`font-medium text-xl px-8`}>
+        <div className={`font-medium text-xl px-8 font-Space-Grotesk`}>
           {Desc} Lorem ipsum dolor sit amet consectetur adipisicing elit.
           Commodi sequi recusandae ullam molestias sed, vero enim neque esse,
           aperiam hic.

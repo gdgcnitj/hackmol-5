@@ -1,9 +1,9 @@
 // _dovument.js nextjs
-import { Html, Head, Main, NextScript } from 'next/document'
-import Script from 'next/script'
+import { Html, Head, Main, NextScript } from "next/document";
+import Script from "next/script";
+import { useLayoutEffect } from "react";
 
 export default function Document() {
-
         return (
             <Html lang="en" style={{scrollBehavior:'smooth'}}>
                 <Head>
@@ -50,9 +50,8 @@ export default function Document() {
 
                 <Main />
                 <NextScript />
-       {/* <Script src="https://apply.devfolio.co/v2/sdk.js" strategy="beforeInteractive"  defer async   ></Script> */}
+       <Script src="https://apply.devfolio.co/v2/sdk.js" strategy="beforeInteractive"  defer async   ></Script>
 
             </Html>
         )
-    
 }

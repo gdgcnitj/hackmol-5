@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "../styles/prizeSection.module.css";
 function List(props){
   return(
@@ -15,7 +14,7 @@ function List(props){
 const PrizeSection = (props) => {
   return (
     <>
-      <div className={styles.container}>
+      <div id='prizes' className={styles.container}>
         <div className={styles.top_right}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
