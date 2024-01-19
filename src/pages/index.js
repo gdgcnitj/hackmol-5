@@ -14,6 +14,7 @@ import Track from "../components/track";
 import Footer from "../components/Footer";
 import HeroSection from "../components/Hero/HeroSection";
 import JudgesSection from "../components/Judges/JudgesSection";
+import Script from "next/script";
 
 
 
@@ -21,7 +22,7 @@ import JudgesSection from "../components/Judges/JudgesSection";
 export default function Home() {
   return (
     <div>
-
+<Script src="https://apply.devfolio.co/v2/sdk.js" defer async    ></Script>
       <Banner2 />
       <div className="six">
         <Log />
