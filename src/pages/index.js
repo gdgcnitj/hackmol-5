@@ -1,5 +1,3 @@
-import "../styles/globals.css";
-import "../styles/hero.css";
 import Marquee from "../components/Hero/marquee";
 import Testimonies from "../components/Testimonies";
 import Timeline from "../components/Timeline";

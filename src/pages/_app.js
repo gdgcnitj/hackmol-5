@@ -1,6 +1,7 @@
 import "swiper/css";
 import Head from "next/head";
-
+import "../styles/globals.css";
+import "../styles/hero.css";
 function MyApp({ Component, pageProps }) {
   return (
     <>
