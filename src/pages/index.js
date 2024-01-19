@@ -17,13 +17,6 @@ export default function Home() {
     <div>
       <Header />
       <NavBar />
-      {/* <Banner2 /> */}
-      {/* <div className="six"></div>
-      <div className="five"></div>
-      <div className="seven">
-        <div className="hidden sm:flex items-center justify-center md:justify-start"></div>
-      </div> */}
-      {/* <NavBar /> */}
       <HeroSection />
       <Marquee />
       <About />
