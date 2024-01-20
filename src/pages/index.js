@@ -11,6 +11,7 @@ import HeroSection from "../components/Hero/HeroSection";
 import JudgesSection from "../components/Judges/JudgesSection";
 import Header from "../components/Hero/Header";
 import NavBar from "../components/Hero/NavBar";
+import SponsersPage from "../components/sponsers";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
       <Track />
       <JudgesSection />
       <Testimonies />
+      <SponsersPage/>
       <FAQ />
       <Footer />
     </div>
