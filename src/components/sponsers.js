@@ -2,7 +2,6 @@ import Image from "next/image"
 export default function SponsersPage() {
 
   return (
-    <div>
       <div className="flex flex-col place-items-center my-20">
         <h2 className="w-full  text-center md:text-6xl text-4xl font-Minecraft uppercase text-black  tracking-widest">
           Our Premium Sponsors
