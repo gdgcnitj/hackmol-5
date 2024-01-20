@@ -44,14 +44,14 @@ let Footer = function (props) {
                         <Link href="https://twitter.com/GDSCNitj" rel="noreferrer" target="_blank"><svg className="p-1 h-[35px] w-[35px] fill-white ease-in duration-200 hover:fill-[#1DA1F2]" width="28" height="22" viewBox="0 0 26 21" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M25.4924 0.557746C24.4107 1.32079 23.2129 1.90439 21.9453 2.28609C21.265 1.50383 20.3608 0.949382 19.3551 0.697737C18.3494 0.446093 17.2906 0.509393 16.3221 0.879075C15.3535 1.24876 14.5218 1.90699 13.9396 2.76474C13.3573 3.62249 13.0524 4.63837 13.0664 5.675V6.80464C11.0812 6.85611 9.1141 6.41583 7.34026 5.523C5.56643 4.63017 4.04094 3.31252 2.89966 1.68738C2.89966 1.68738 -1.6189 11.8541 8.54784 16.3727C6.22139 17.9519 3.44997 18.7437 0.640381 18.6319C10.8071 24.2801 23.2331 18.6319 23.2331 5.64111C23.232 5.32646 23.2018 5.01258 23.1428 4.70352C24.2956 3.56653 25.1093 2.131 25.4924 0.557746Z" /></svg></Link>
                     </div>
                 </div>
-                <div className="m-auto ml-20 mr-20 md:flex justify-between self-center w-10/12 order-1 md:order-2">
+                <div className="m-auto py-10 flex flex-col items-center md:flex-row justify-between w-10/12 order-1 md:order-2">
                     {/* Info about GDSC */}
-                    <div className="md:inline-flex pb-20">
-                        <div className="self-start m-auto row-span-1 w-16 md:w-64 flex justify-center hover:animate-[bounce_2s_linear_infinite]">
+                    <div className="flex flex-col gap-2 md:flex-row justify-center items-center">
+                        <div className="w-16 md:w-64 flex justify-center hover:animate-[bounce_2s_linear]">
                             <InfoAboutGDSC />
                         </div>
-                        <div className="flex md:-mt-6 flex-col h-[72px] row-span-1">
-                            <h6 className="text-white w-80 font-Space-Grotesk text-40 font-bold md:font-normal text-center md:text-left w-64 m-auto mt-2">
+                        <div className="flex flex-col ">
+                            <h6 className="text-white w-80 font-Space-Grotesk text-40 font-bold md:font-normal text-center md:text-left m-auto mt-2">
                                 GDSC NITJ
                                 <br />
                                 Google Developer Student Clubs are university based community groups for students interested in Google developer technologies.

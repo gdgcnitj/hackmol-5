@@ -59,15 +59,18 @@ function HeroSection() {
           <div className="flex relative text-2xl font-bold font-Space-Grotesk py-3">
             Dig deeper
           </div>
-          <div className="flex relative pb-6 animate-bounce">
+          <div className="flex relative pb-6 animate-bounce cursor-pointer" onClick={()=> {
+            var scrollDiv = document.getElementById("about").offsetTop;
+            window.scrollTo({ top: scrollDiv, behavior: 'smooth'});
+          }}>
             <img data-src={linkArrow.src} alt="#" loading="lazy" />
           </div>
-          <div className="flex justify-center items-center gap-2">
+          <div className="flex flex-col-reverse justify-center items-center gap-4 sm:flex-row">
             <div
-              className="apply-button"
+              className="apply-button w-[224px]"
               data-hackathon-slug="hackmol-5"
               data-button-theme="light"
-              style={{ height: '44px', width: '100px' }}
+              style={{ height: '72px'}}
             ></div>
             <div onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
               {isHovered ? (
