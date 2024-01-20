@@ -41,7 +41,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className='grid md:flex justify-between py-6 px-12 md:h-16 text-lg font-Space-Grotesk bg-black md:bg-opacity-95 text-center text-white items-center w-full font-normal'>
-                <p> &copy; 2024 Hackmol.tech</p>
+                <p> &copy; 2024 Hackmol.com</p>
                 <div>
                     <Link className="hover:underline mx-4 p-1" href="https://linktr.ee/GDSC_NITJ">Contact Us</Link>
                     <Link className="hover:underline mx-4 p-1" href="https://www.nitj.ac.in/">Institute</Link>
