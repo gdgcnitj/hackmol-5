@@ -1,16 +1,16 @@
 import { useState } from 'react';
 import Image from 'next/image';
-import image1 from '../../public/images/about1.jpg'
+// import image1 from '../../public/images/about1.png'
 import image2 from '../../public/images/about2.jpg'
 import image3 from '../../public/images/about3.jpg'
 import image4 from '../../public/images/about4.jpg'
 import image5 from '../../public/images/about5.jpg'
-import image6 from '../../public/images/about6.jpg'
+import image6 from '../../public/images/about6.png'
 
 const About = (props) => {
   const [selectedImage, setSelectedImage] = useState(0);
   const images = [
-    image1,
+    // image1,
     image2,
     image3,
     image4,
@@ -31,7 +31,7 @@ const About = (props) => {
         <div className='p-5'>
         <div className="HeadingTextContainer flex-col justify-center items-center gap-8 py-6">
           <div className="Heading w-9/10 text-center m-auto text-white text-3xl sm:text-6xl lg:text-8xl font-extrabold font-Minecraft leading-10 py-3">ABOUT HACKMOL</div>
-          <div className="Text w-9/10 text-center my-4 mx-auto text-white text-xl lg:text-3xl font-normal font-Space-Grotesk px-10 py-3 leading-5 sm:leading-9">Lorem ipsum dolor sit amet consectetur. Egestas sed nisl condimentum quisque pharetra augue ultricies elementum. Blandit faucibus tortor vitae nunc urna id eget eget aliquam. Non pellentesque egestas turpis sed tincidunt malesuada pretium nibh</div>
+          <div className="Text w-9/10 text-center my-4 mx-auto text-white text-xl lg:text-3xl font-normal font-Space-Grotesk px-10 py-3 leading-5 sm:leading-9">HackMol 5.0 is fifth-edition of community-focused 30-hour hackathon organized by DSC NIT Jalandhar. Tailored to cater to both beginners and experts, this event provides an excellent opportunity to showcase your skills and be part of a competitive yet inclusive developer community. </div>
         </div>
 
         <div className="Image w-full h-full flex-col justify-center items-center inline-flex p-10">
@@ -43,7 +43,7 @@ const About = (props) => {
               height="1000" className="w-full h-full  object-cover"
             /></div>
           <div className='flex w-4/5 justify-between items-center'>
-            <div className="ImgDescription w-3/4  text-white  sm:text-xl font-normal font-Space-Grotesk leading-4 sm:leading-8 py-3">Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi..</div>
+            <div className="ImgDescription w-3/4  text-white  sm:text-xl font-normal font-Space-Grotesk leading-4 sm:leading-8 py-3">Collaborate , Innovate and Win</div>
             <div className="flex py-5">
               <div
                 className="w-6 sm:w-[40px] md:w-[70px]  mx-2 sm:mx-3 md:mx-5 cursor-pointer "

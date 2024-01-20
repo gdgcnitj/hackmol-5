@@ -16,7 +16,7 @@ import clock from "../../public/images/timeline/clock.svg";
 function Timeline() {
   return (
     <>
-      <div id='schedule' className={`px-[58.75px] max-[1048px]:px-[30px] mb-16   py-[30px] `}>
+      <div id='schedule' className={`px-[58.75px] max-[1048px]:px-[30px]   py-[40px] `}>
         <div className={` m-auto  ${style2.heading1}  text-black text-sm`}>
           EVENT TIMELINE
         </div>
@@ -65,10 +65,10 @@ function Timeline() {
             >
               <div className="flex justify-between">
                 <div className={`${style2.daytext}`}>DAY1</div>{" "}
-                <div className="text-black-200">XX FEB-2024</div>
+                <div className="text-black-200">17 FEB-2024</div>
               </div>
               <div className={` ${style2.borderbox}  ${style2.paddinginbox}`}>
-                <div>Hackathon registration starts</div>{" "}
+                <div>Hackathon Opening Ceremony</div>{" "}
                 <div className="flex">
                   <div className="pt-[4px] mr-[4px]">
                     <img src={clock.src} alt="" />
@@ -83,16 +83,27 @@ function Timeline() {
                   <div className="absolute top-[-7px] right-[18px]">
                     <img src={ribbon.src} alt="#" />
                   </div>
-                  <div>Hackathon registration starts</div>
+                  <div>Hackathon starts</div>
                   <div className="flex">
                     <div className="pt-[4px] mr-[4px]">
                       <img src={clock.src} alt="" />
                     </div>
-                    <div>10:00 AM</div>
+                    <div>11:00 AM</div>
                   </div>
                 </div>
               </div>
               <div className="card">
+                <div className={` ${style2.borderbox}  ${style2.paddinginbox}`}>
+                  <div>Mentors Allotment</div>
+                  <div className="flex">
+                    <div className="pt-[4px] mr-[4px]">
+                      <img src={clock.src} alt="" />
+                    </div>
+                    <div>4:00 PM</div>
+                  </div>
+                </div>
+              </div>
+              {/* <div className="card">
                 <div className={` ${style2.borderbox}  ${style2.paddinginbox}`}>
                   <div>Hackathon registration starts</div>
                   <div className="flex">
@@ -113,18 +124,7 @@ function Timeline() {
                     <div>10:00 AM</div>
                   </div>
                 </div>
-              </div>
-              <div className="card">
-                <div className={` ${style2.borderbox}  ${style2.paddinginbox}`}>
-                  <div>Hackathon registration starts</div>
-                  <div className="flex">
-                    <div className="pt-[4px] mr-[4px]">
-                      <img src={clock.src} alt="" />
-                    </div>
-                    <div>10:00 AM</div>
-                  </div>
-                </div>
-              </div>
+              </div> */}
               <div className="mx-auto">1/2</div>
             </div>
 
@@ -133,18 +133,18 @@ function Timeline() {
             >
               <div className="flex justify-between">
                 <div className={`${style2.daytext}`}>DAY2</div>{" "}
-                <div className="text-black-200">XX FEB-2024</div>
+                <div className="text-black-200">18 FEB-2024</div>
               </div>
               <div className={` ${style2.borderbox}  ${style2.paddinginbox}`}>
-                <div>Hackathon registration starts</div>{" "}
+                <div>Mid Night Evaluation</div>{" "}
                 <div className="flex">
                   <div className="pt-[4px] mr-[4px]">
                     <img src={clock.src} alt="" />
                   </div>
-                  <div>10:00 AM</div>
+                  <div>1 : 00 AM</div>
                 </div>
               </div>
-              <div className="card">
+              {/* <div className="card">
                 <div className={` ${style2.borderbox}  ${style2.paddinginbox}`}>
                   <div>Hackathon registration starts</div>
                   <div className="flex">
@@ -154,8 +154,8 @@ function Timeline() {
                     <div>10:00 AM</div>
                   </div>
                 </div>
-              </div>
-              <div className="card">
+              </div> */}
+              {/* <div className="card">
                 <div className={` ${style2.borderbox}  ${style2.paddinginbox}`}>
                   <div>Hackathon registration starts</div>
                   <div className="flex">
@@ -165,26 +165,26 @@ function Timeline() {
                     <div>10:00 AM</div>
                   </div>
                 </div>
-              </div>
+              </div> */}
               <div className="card">
                 <div className={` ${style2.borderbox}  ${style2.paddinginbox}`}>
-                  <div>Hackathon registration starts</div>
+                  <div>Final Submission</div>
                   <div className="flex">
                     <div className="pt-[4px] mr-[4px]">
                       <img src={clock.src} alt="" />
                     </div>
-                    <div>10:00 AM</div>
+                    <div>11:00 AM</div>
                   </div>
                 </div>
               </div>
               <div className="card">
                 <div className={` ${style2.borderbox}  ${style2.paddinginbox}`}>
-                  <div>Hackathon registration starts</div>
+                  <div>Results Announcement</div>
                   <div className="flex">
                     <div className="pt-[4px] mr-[4px]">
                       <img src={clock.src} alt="" />
                     </div>
-                    <div>10:00 AM</div>
+                    <div>2:00 PM</div>
                   </div>
                 </div>
               </div>
