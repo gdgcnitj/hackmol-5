@@ -64,9 +64,9 @@ let Footer = function (props) {
                 </div>
             </div>
             <div className='grid md:flex p-4 md:h-16 text-sm bg-[#1F1F1F] md:bg-[#313131] text-center text-white justify-center items-center w-full font-Jakarta font-normal'>
-                <Link className="hover:underline mx-4 p-1" href="#">Contact Us</Link>
-                <Link className="hover:underline mx-4 p-1" href="#">Institute</Link>
-                <Link className="hover:underline mx-4 p-1" href="#">Website</Link>
+                <Link className="hover:underline mx-4 p-1" href="https://linktr.ee/GDSC_NITJ">Contact Us</Link>
+                <Link className="hover:underline mx-4 p-1" href="https://www.nitj.ac.in/">Institute</Link>
+                {/* <Link className="hover:underline mx-4 p-1" href="">Website</Link> */}
                 <Link className="hover:underline mx-4 p-1" href="#">Terms of Service</Link>
                 <Link className="hover:underline mx-4 p-1" href="#">Privacy Policy</Link>
                 <p className="p-5 md:hidden"> &copy; 2024 Hackmol.tech</p>

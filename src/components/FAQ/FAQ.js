@@ -5,12 +5,12 @@ let FAQ = function () {
   const [showAll, setShowAll] = useState(false);
   const [qa, setQA] = useState([
     {
-      ques: "What is a Hackathon and who are eligible to participate in HackMol4.0 ?",
+      ques: "What is a Hackathon and who are eligible to participate in HackMol5.0 ?",
       ans: "A Hackathon is an intense event that brings together designers and developers along with industry experts to identify problems and create software solutions, usually within 24-48 hours. If you're a student developer, we'd love to have you at HackMol4.0! Whether that's a undergrad, or graduate, we believe you can get something out of the event.",
     },
     {
       ques: "What can be the size of team?",
-      ans: `A team can consist of 1-4 members.\n Pro Tip : Aim to have a mix of people with both design and developer skills. Individual entries are also allowed.`,
+      ans: `A team can consist of 1-4 members.\n Pro Tip : Aim to have a mix of people with both design and developer skills. Individual entries are also allowed.Open for all institues as Collaboration is the key`,
     },
     {
       ques: "What if I don't have a team or idea ?",
@@ -18,7 +18,7 @@ let FAQ = function () {
     },
     {
       ques: "When will we receive goodies?",
-      ans: "Prizes and goodies are provided by sponsors of the hackathon, hence they are responsible for the delivery of the items.",
+      ans: "Goodies and Swags t be delivered in between the hackathon progression and final prizes with cash money at the closing ceremony",
     },
   ]);
 

@@ -9,6 +9,7 @@ export default function Hackmol() {
       width={440}
       height={80}
       flex-shrink={0} // Height of the image
+      loading="lazy"
     />
   );
 }
