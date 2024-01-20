@@ -18,7 +18,7 @@ let FAQ = function () {
     },
     {
       ques: "When will we receive goodies?",
-      ans: "Goodies and Swags t be delivered in between the hackathon progression and final prizes with cash money at the closing ceremony",
+      ans: "Goodies and Swags to be delivered in between the hackathon progression and final prizes with cash money at the closing ceremony",
     },
   ]);
 
