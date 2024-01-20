@@ -21,7 +21,7 @@ const Track = (props) => {
             </div>
             <div className={styles.box}>
             
-                <pr>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</pr>
+                <pr>Round 1 : PPT Round (Online), Common for All .Qualifying ones to be going for Physical Hackathon Round</pr>
             
 
 
@@ -34,7 +34,7 @@ const Track = (props) => {
               
             ></div>
             <div className={styles.box}>
-            <pr>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</pr>
+            <pr>Freshers Track: For begineers , specifically focused for Freshmen to have fair and healthy competition amongst other experienced and senior competitors.</pr>
 
 </div>
         
@@ -45,7 +45,7 @@ const Track = (props) => {
              
             ></div>
             <div className={styles.box}>
-            <pr>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</pr>
+            <pr>Expert , Seniors Track : The experienced ones are allowed to opt it , higher the risk ,higher is the reward.</pr>
 
 </div>
         
