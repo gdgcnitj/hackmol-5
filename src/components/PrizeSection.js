@@ -43,7 +43,7 @@ const PrizeSection = (props) => {
           </svg>
         </div>
         
-        <div className={styles.heading}>PRIZES</div>
+        <div className="font-Minecraft text-7xl text-white mb-12">PRIZES</div>
         <div className={styles.card_container}>
           <div className={styles.left_card}>
             <img

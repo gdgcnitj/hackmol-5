@@ -41,7 +41,7 @@ function Rules() {
       <div className="rulesLeft white flex flex-col md:flex-row ">
         <div className="md:w-full py-10  md:py-20 ">
           <div className=" px-8 flex flex-col justify-center items-center ">
-            <div className="rules__title font-extrabold text-8xl mb-6 font-Minecrafter text-black">
+            <div className=" font-Minecraft text-7xl mb-6 font-Minecrafter text-black">
               RULES
             </div>
             <div className="w-3/4 rules__desc mb-10 text-black font-Space-Grotesk text-center">

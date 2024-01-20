@@ -71,6 +71,5 @@ export default function SponsersPage() {
 
         </div>
       </div>
-    </div>
   )
 }

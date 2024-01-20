@@ -17,7 +17,7 @@ function Timeline() {
   return (
     <>
       <div id='schedule' className={`px-[58.75px] max-[1048px]:px-[30px]   py-[40px] `}>
-        <div className={` m-auto  ${style2.heading1}  text-black text-sm`}>
+        <div className={` font-Minecraft m-auto text-7xl  text-center   text-black  mb-12`}>
           EVENT TIMELINE
         </div>
         <div className=" flex justify-center align-center ">
