@@ -83,7 +83,7 @@ let FAQ = function () {
             height={1000}
             className="w-full h-full object-cover"
           />
-          <span className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white flex items-center  m-auto  text-7xl md:text-9xl font-Minecrafter font-bold leading-10">
+          <span className="absolute top-1/2 left-1/2 transform font-Minecraft -translate-x-1/2 -translate-y-1/2 text-white flex items-center  m-auto  text-7xl md:text-9xl leading-10">
             FAQ
           </span>
         </div>

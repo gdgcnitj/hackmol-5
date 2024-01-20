@@ -5,7 +5,7 @@ import style from "../styles/testimonie.module.css";
 function Testimonies() {
   return (
     <div className="flex flex-col text-center bg-[#1F1F1F] p-0 space-y-4  px-2vw h-fit mt-[-2px] pb-[10px] ">
-      <div className={` m-auto py-2 font-Minecraft font-bold  ${style.heading1} lg:text-6xl text-3xl md:text-2xl sm:text-xl`}>
+      <div className={` m-auto py-2 font-Minecraft text-white my-12  ${style.heading1} lg:text-6xl text-3xl md:text-2xl sm:text-xl`}>
         PREVIOUS YEAR REVIEWS
       </div>
       <div className=" flex relative font-Space-Grotesk">

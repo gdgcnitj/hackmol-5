@@ -15,16 +15,11 @@ const Track = (props) => {
     <div className = {styles.left_card}>
     <div
               className={styles.left_card_img}
-             
+
             >
-             
             </div>
             <div className={styles.box}>
-            
                 <pr>Round 1 : PPT Round (Online), Common for All .Qualifying ones to be going for Physical Hackathon Round</pr>
-            
-
-
             </div>
 
 

@@ -12,7 +12,7 @@ module.exports = {
         white: "#FFFFFF",
         orange: "#FF6F0F",
         green: "#94E95D",
-        black: "#000000",
+        black: "#1F1F1F",
         lightblue: "#5C40EC",
         pastelBlue: "#90A8ED",
       },
@@ -20,7 +20,6 @@ module.exports = {
         "Space-Grotesk": ["Space Grotesk", "sans-serif"],
         "Plus-Jakarta": ["Plus Jakarta Sans", "sans-serif"],
         "Red-Hat-Display": ["Red Hat Display", "sans-serif"],
-        "Minecrafter": ["Minecrafter", "sans-serif"],
         "Minecraft": ["Minecraft", "Minecrafter", "sans-serif"],
         "Poppins": ["Poppins", "sans-serif"]
       },

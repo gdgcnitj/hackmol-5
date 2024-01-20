@@ -31,7 +31,7 @@ const About = (props) => {
       <div className="Content w-full h-full">
         <div className='p-5'>
           <div className="HeadingTextContainer flex-col justify-center items-center gap-8 py-6">
-            <div className="Heading w-9/10 text-center m-auto text-white text-3xl sm:text-6xl lg:text-8xl font-extrabold font-Minecraft leading-10 py-3">ABOUT HACKMOL</div>
+            <div className="Heading w-9/10 text-center m-auto text-white text-3xl sm:text-6xl lg:text-8xl font-Minecraft leading-10 py-3">ABOUT HACKMOL</div>
             <div className="Text w-9/10 text-center my-4 mx-auto text-white text-xl lg:text-3xl font-normal font-Space-Grotesk px-10 py-3 leading-5 sm:leading-9">HackMol 5.0 is fifth-edition of community-focused 30-hour hackathon organized by DSC NIT Jalandhar. Tailored to cater to both beginners and experts, this event provides an excellent opportunity to showcase your skills and be part of a competitive yet inclusive developer community. </div>
           </div>
 
