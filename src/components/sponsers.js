@@ -44,8 +44,8 @@ export default function SponsersPage() {
               Gold Sponsors
             </div>
             <div className="flex flex-row flex-wrap  justify-center md:gap-8 gap-6">
-            {data.gold.length===0?<div>Coming Soon</div>:data.gold.map((sponser)=>{
-                return <Card image={sponser.image} link={sponser.link} label={sponser.label}/>
+            {data.gold.length===0?<div>Coming Soon</div>:data.gold.map((sponser,index)=>{
+                return <Card image={sponser.image} key={index} link={sponser.link} label={sponser.label}/>
               })}
             </div>
           </div>
@@ -55,8 +55,8 @@ export default function SponsersPage() {
               Silver Sponsors
             </div>
             <div className="flex flex-row flex-wrap  justify-center md:gap-8 gap-6">
-            {data.silver.length===0?<div>Coming Soon</div>:data.silver.map((sponser)=>{
-                return <Card image={sponser.image} link={sponser.link} label={sponser.label}/>
+            {data.silver.length===0?<div>Coming Soon</div>:data.silver.map((sponser,index)=>{
+                return <Card image={sponser.image} key={index} link={sponser.link} label={sponser.label}/>
               })}
             </div>
           </div>
@@ -66,8 +66,8 @@ export default function SponsersPage() {
               Bronze Sponsors
             </div>
             <div className="flex flex-row flex-wrap  justify-center md:gap-8 gap-6">
-            {data.bronze.length===0?<div>Coming Soon</div>:data.bronze.map((sponser)=>{
-                return <Card image={sponser.image} link={sponser.link} label={sponser.label}/>
+            {data.bronze.length===0?<div>Coming Soon</div>:data.bronze.map((sponser,index)=>{
+                return <Card image={sponser.image} key={index} link={sponser.link} label={sponser.label}/>
               })}
             </div>
           </div>
