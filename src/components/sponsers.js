@@ -28,7 +28,7 @@ export default function SponsersPage() {
   const Card = ({image,label,link}) =>{
     return (
       <div className="flex items-center  justify-center hover:opacity-60 cursor-pointer" onClick={()=>{window.open(link,"_blank")}} >
-          <Image src={image} alt={label} className="h-16 hover:text-gray-500 dark:hover:text-white" width={200} height={200} />
+          <img src={image} alt={label} className="h-16 hover:text-gray-500 dark:hover:text-white"/>
       </div>
     )
   }
