@@ -26,13 +26,24 @@ function HeroSection() {
     );
 
     // Observe each image with the 'lazy' attribute
-    document.querySelectorAll('[data-src]').forEach((image) => {
+    document.querySelectorAll("[data-src]").forEach((image) => {
       observer.observe(image);
     });
 
     // Cleanup the observer on component unmount
     return () => {
       observer.disconnect();
+    };
+  }, []);
+
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://apply.devfolio.co/v2/sdk.js";
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
     };
   }, []);
 
@@ -59,10 +70,13 @@ function HeroSection() {
           <div className="flex relative text-2xl font-bold font-Space-Grotesk py-3">
             Dig deeper
           </div>
-          <div className="flex relative pb-6 animate-bounce cursor-pointer" onClick={()=> {
-            var scrollDiv = document.getElementById("about").offsetTop;
-            window.scrollTo({ top: scrollDiv, behavior: 'smooth'});
-          }}>
+          <div
+            className="flex relative pb-6 animate-bounce cursor-pointer"
+            onClick={() => {
+              var scrollDiv = document.getElementById("about").offsetTop;
+              window.scrollTo({ top: scrollDiv, behavior: "smooth" });
+            }}
+          >
             <img data-src={linkArrow.src} alt="#" loading="lazy" />
           </div>
           <div className="flex flex-col-reverse justify-center items-center gap-4 sm:flex-row">
@@ -70,9 +84,12 @@ function HeroSection() {
               className="apply-button w-[224px]"
               data-hackathon-slug="hackmol-5"
               data-button-theme="light"
-              style={{ height: '72px'}}
+              style={{ height: "72px" }}
             ></div>
-            <div onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
+            <div
+              onMouseEnter={() => setIsHovered(true)}
+              onMouseLeave={() => setIsHovered(false)}
+            >
               {isHovered ? (
                 <img data-src={regButtonHover.src} alt="#" loading="lazy" />
               ) : (
