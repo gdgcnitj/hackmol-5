@@ -15,8 +15,8 @@ export default function JudgesSection() {
           </div>
           <div className="flex relative justify-end w-[67rem] pt-8 pb-12">
             <div className="relative w-[114px] h-[45px] flex flex-row gap-x-6 right-96 lg:right-0 md:right-48">
-                <img className="relative flex" src={leftArrow.src} />
-                <img className="relative flex" src={rightArrow.src} />
+                {/* <img className="relative flex" src={leftArrow.src} /> */}
+                {/* <img className="relative flex" src={rightArrow.src} /> */}
             </div>
           </div>
         </div>
