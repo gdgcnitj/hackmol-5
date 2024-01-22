@@ -1,17 +1,17 @@
 import React from "react";
 import Card from "./Card";
-import judgeSampleImage from "../../../public/images/judges/Judge.svg";
+import judgeSampleImage from "../../../public/images/judges/anubhav.jpeg";
 
 export default function CardHolder() {
   const judges = [
     {
       name: "ANUBHAV GUPTA",
       imageURL: judgeSampleImage,
-      role: "SOFTWARE ENGINEER",
-      // company: "Lorem epsum",
-      linkedinLink: "#",
-      instaLink: "#",
-      twitterLink: "#",
+      role: "SWE",
+      company: "Writesonic",
+      linkedinLink: "https://www.linkedin.com/in/anubhav-gupta-6b87711b0/",
+      // instaLink: "#",
+      twitterLink: "https://twitter.com/GuptaAnubhav12?s=20",
     },
 
     {
