@@ -15,7 +15,7 @@ import SponsersPage from "../components/sponsers";
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Header />
       <NavBar />
       <HeroSection />
@@ -30,6 +30,6 @@ export default function Home() {
       <SponsersPage/>
       <FAQ />
       <Footer />
-    </div>
+    </>
   );
 }
