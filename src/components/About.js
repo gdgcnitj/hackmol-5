@@ -46,32 +46,30 @@ const About = (props) => {
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className='flex w-4/5 justify-between items-center'>
-              <div className="ImgDescription w-3/4 text-white sm:text-xl font-normal font-Space-Grotesk leading-4 sm:leading-8 py-3">Collaborate, Innovate and Win</div>
-              <div className="flex py-5">
+            <div className='flex w-4/5 justify-between items-center mt-3 pt-3'>
                 <div
-                  className="w-6 sm:w-[40px] md:w-[70px] mx-2 sm:mx-3 md:mx-5 cursor-pointer"
+                  className="sm:w-[40px] md:w-[70px] mx-2 sm:mx-3 md:mx-5 cursor-pointer"
                   onClick={() => handleArrowClick('left')}
                 >
                   <Image
                     src={`/images/Arrow.png`}
                     alt="Left Arrow"
-                    width={800} // Adjust the width as needed
-                    height={600} // Adjust the height as needed
+                    width={600} // Adjust the width as needed
+                    height={30} // Adjust the height as needed
                   />
                 </div>
+              <div className="ImgDescription flex justify-between items-between text-white sm:text-xl font-normal font-Space-Grotesk leading-4 sm:leading-8 py-3"><span>Collaborate, Innovate and Win</span></div>
                 <div
-                  className="w-6 sm:w-[40px] md:w-[70px] h-6 cursor-pointer"
+                  className="sm:w-[40px] md:w-[70px] cursor-pointer"
                   onClick={() => handleArrowClick('right')}
                 >
                   <Image
                     src={`/images/Arrow (1).png`}
                     alt="Right Arrow"
-                    width={800} // Adjust the width as needed
-                    height={50} // Adjust the height as needed
+                    width={600} // Adjust the width as needed
+                    height={30} // Adjust the height as needed
                   />
                 </div>
-              </div>
             </div>
           </div>
         </div>
