@@ -13,22 +13,25 @@ import Header from "../components/Hero/Header";
 import NavBar from "../components/Hero/NavBar";
 import SponsersPage from "../components/sponsers";
 import StatusHeader from "../components/StatusHeader";
+import TracksPrizes from "../components/TracksPrizes";
 
 export default function Home() {
   return (
     <>
-      <StatusHeader text="Registrations opening soon!"/>
+      {/* <StatusHeader text="Registrations are started!"/> */}
       <Header />
       <NavBar />
       <HeroSection />
       <Marquee />
       <About />
       <Timeline />
-      <PrizeSection />
+      {<TracksPrizes/>}
+      {/* <PrizeSection /> */}
       <Rules />
-      <Track />
+      {/* <Track /> */}
       {/* <JudgesSection /> */}
       {/* <Testimonies /> */}
+      
       <SponsersPage/>
       <FAQ />
       <Footer />
