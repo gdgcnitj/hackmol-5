@@ -27,7 +27,7 @@ export default function Home() {
       <PrizeSection />
       <Rules />
       <Track />
-      <JudgesSection />
+      {/* <JudgesSection /> */}
       {/* <Testimonies /> */}
       <SponsersPage/>
       <FAQ />

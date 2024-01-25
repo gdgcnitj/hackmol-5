@@ -23,7 +23,7 @@ export default function Header() {
         <Hackmol />
       </div>
       <div className="hidden md:block">
-        <button onClick={() => console.log("connect")}>
+        <button onClick={() => window.open("https://hackmol-5.devfolio.co/","_blank")}>
           <div className="relative">
             <img
               className="w-full h-full"
