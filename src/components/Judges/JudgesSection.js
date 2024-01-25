@@ -10,9 +10,7 @@ export default function JudgesSection() {
           <div className="flex relative text-center font-Minecraft font-normal text-7xl pt-20 pb-8">
             JUDGES
           </div>
-          <div className="flex relative overflow-hidden w-[21rem] lg:w-[67rem] md:w-[44rem]">
-            <CardHolder />
-          </div>
+          <CardHolder />
           <div className="flex relative justify-end w-[67rem] pt-8 pb-12">
             <div className="relative w-[114px] h-[45px] flex flex-row gap-x-6 right-96 lg:right-0 md:right-48">
                 {/* <img className="relative flex" src={leftArrow.src} /> */}
