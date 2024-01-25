@@ -13,7 +13,7 @@ export default function ({props}) {
             <h2 className='text-xl'>{props.amount}</h2>
         </div>
         {props.points.map(point => {
-            return <div className=''>
+            return <div key={point.title} className=''>
                 <h1 className='text-2xl'><b>{point.title}</b></h1>
                 <h2 className='text-xl'>{point.amount}</h2>
             </div>

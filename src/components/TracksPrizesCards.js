@@ -22,7 +22,7 @@ export default function TracksPrizesCards({ props }) {
           </div>
           {props.ranks.map((rank) => {
             return (
-              <div>
+              <div key={rank.title}>
                 <h1 className="text-2xl">
                   <b>{rank.title}</b>
                 </h1>
@@ -46,7 +46,7 @@ export default function TracksPrizesCards({ props }) {
             <ul>
               {props.points.map((text) => {
                 return (
-                  <li className="list-disc text-xl text-wrap p-0.5">{text}</li>
+                  <li key={text} className="list-disc text-xl text-wrap p-0.5">{text}</li>
                 );
               })}
             </ul>
