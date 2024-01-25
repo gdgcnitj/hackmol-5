@@ -1,38 +1,11 @@
-"use client";
 import React from "react";
 import { useEffect } from "react";
 import heroText from "../../../public/images/HeroText.svg";
 import linkArrow from "../../../public/images/LinkArrow.svg";
 import HeroSectionImg from "../../../public/images/HeroSection.svg";
-import Image from "next/image";
 
 function HeroSection() {
-  useEffect(() => {
-    // IntersectionObserver to handle lazy loading
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            const lazyImage = entry.target;
-            lazyImage.src = lazyImage.dataset.src;
-            observer.unobserve(lazyImage);
-          }
-        });
-      },
-      { rootMargin: "0px 0px 100px 0px" } // Adjust the rootMargin as needed
-    );
-
-    // Observe each image with the 'lazy' attribute
-    document.querySelectorAll("[data-src]").forEach((image) => {
-      observer.observe(image);
-    });
-
-    // Cleanup the observer on component unmount
-    return () => {
-      observer.disconnect();
-    };
-  }, []);
-
+  
   useEffect(() => {
     const script = document.createElement("script");
     script.src = "https://apply.devfolio.co/v2/sdk.js";
@@ -70,7 +43,7 @@ function HeroSection() {
               window.scrollTo({ top: scrollDiv, behavior: "smooth" });
             }}
           >
-            <img data-src={linkArrow.src}  loading="eager" />
+            <img src={linkArrow.src}  loading="eager" />
           </div>
           <div className="flex flex-col-reverse justify-center items-center gap-4 sm:flex-row">
             <div
