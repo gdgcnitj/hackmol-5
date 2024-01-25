@@ -35,14 +35,14 @@ const About = (props) => {
             <div className="Text w-9/10 text-center my-4 mx-auto text-white text-xl lg:text-3xl font-normal font-Space-Grotesk px-10 py-3 leading-5 sm:leading-9">HackMol 5.0 is fifth-edition of community-focused 30-hour hackathon organized by DSC NIT Jalandhar. Tailored to cater to both beginners and experts, this event provides an excellent opportunity to showcase your skills and be part of a competitive yet inclusive developer community. </div>
           </div>
 
-          <div className="Image w-full h-full flex-col justify-center items-center inline-flex p-10">
-            <div className='w-4/5 h-[180px] sm:h-[250px] md:h-[500px] '>
+          <div className="w-full h-full flex-col justify-center items-center inline-flex">
+            <div className=''>
               <Image
                 src={images[selectedImage].src}
                 alt={`Image ${selectedImage + 1}`}
                 width="1000"
                 height="1000"
-                loading="lazy" // Add lazy loading attribute
+                loading="lazy" 
                 className="w-full h-full object-cover"
               />
             </div>
@@ -51,34 +51,24 @@ const About = (props) => {
                   className="sm:w-[40px] md:w-[70px] mx-2 sm:mx-3 md:mx-5 cursor-pointer"
                   onClick={() => handleArrowClick('left')}
                 >
-                  <Image
-                    src={`/images/Arrow.png`}
-                    alt="Left Arrow"
-                    width={600} // Adjust the width as needed
-                    height={30} // Adjust the height as needed
-                  />
+                  <img src={`/images/Arrow.png`}></img>
                 </div>
               <div className="ImgDescription flex justify-between items-between text-white sm:text-xl font-normal font-Space-Grotesk leading-4 sm:leading-8 py-3"><span>Collaborate, Innovate and Win</span></div>
                 <div
                   className="sm:w-[40px] md:w-[70px] cursor-pointer"
                   onClick={() => handleArrowClick('right')}
                 >
-                  <Image
-                    src={`/images/Arrow (1).png`}
-                    alt="Right Arrow"
-                    width={600} // Adjust the width as needed
-                    height={30} // Adjust the height as needed
-                  />
+                  <img src={`/images/Arrow (1).png`}></img>
                 </div>
             </div>
           </div>
         </div>
 
-        <div className="flex overflow-x-auto my-6 px-16">
+        {/* <div className="flex gap-2">
           {images.map((image, index) => (
             <div
               key={index}
-              className={`w-full h-full mr-2 cursor-pointer opacity-70 hover:opacity-100 ${index === selectedImage ? 'border-2  border-[#61FF00]' : ''
+              className={`w-180 h-180 cursor-pointer opacity-70 hover:opacity-100 ${index === selectedImage ? 'border-2  border-[#61FF00]' : ''
                 }`}
               onClick={() => setSelectedImage(index)}
             >
@@ -92,7 +82,7 @@ const About = (props) => {
               />
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
     </div>
   );

@@ -81,12 +81,12 @@ function HeroSection() {
           </div>
           <div className="flex flex-col-reverse justify-center items-center gap-4 sm:flex-row">
             <div
-              className="apply-button w-[224px]"
+              className="apply-button p-2"
               data-hackathon-slug="hackmol-5"
               data-button-theme="light"
-              style={{ height: "72px" }}
+              style={{}}
             ></div>
-            <div
+            {/* <div
               onMouseEnter={() => setIsHovered(true)}
               onMouseLeave={() => setIsHovered(false)}
             >
@@ -95,7 +95,7 @@ function HeroSection() {
               ) : (
                 <img data-src={regButton.src} alt="#" loading="lazy" />
               )}
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

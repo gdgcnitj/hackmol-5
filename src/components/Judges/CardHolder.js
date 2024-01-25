@@ -48,12 +48,10 @@ export default function CardHolder() {
   ];
 
   return (
-    <>
-      <div className="inline-flex items-center gap-x-9">
-        {judges.map((judge,index) => (
-          <Card judge={judge} key={index}/>
-        ))}
-      </div>
-    </>
+    <div className="flex flex-wrap justify-center gap-9">
+      {judges.map((judge, index) => (
+        <Card judge={judge} key={index} />
+      ))}
+    </div>
   );
 }

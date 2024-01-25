@@ -12,10 +12,12 @@ import JudgesSection from "../components/Judges/JudgesSection";
 import Header from "../components/Hero/Header";
 import NavBar from "../components/Hero/NavBar";
 import SponsersPage from "../components/sponsers";
+import StatusHeader from "../components/StatusHeader";
 
 export default function Home() {
   return (
     <>
+      <StatusHeader text="Registrations opening soon!"/>
       <Header />
       <NavBar />
       <HeroSection />
@@ -26,7 +28,7 @@ export default function Home() {
       <Rules />
       <Track />
       <JudgesSection />
-      <Testimonies />
+      {/* <Testimonies /> */}
       <SponsersPage/>
       <FAQ />
       <Footer />
