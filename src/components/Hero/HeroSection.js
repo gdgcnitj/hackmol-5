@@ -45,11 +45,8 @@ function HeroSection() {
   }, []);
 
   return (
-    <div
-      className="relative w-full h-[2450px] no-repeat bg-cover bg-center"
-      style={{ backgroundImage: `url(${HeroSectionImg.src})` }}
-    >
-      <img className='absolute top-0 left-0 w-full h-full -z-5' width={100} height={100} src={HeroSectionImg.src}/>
+    <div className="relative w-full h-[2440px] no-repeat">
+      <img className='absolute w-full h-full object-cover' src={HeroSectionImg.src}/>
       <div className="flex flex-col justify-center items-center relative top-[6rem]">
         <div className="hero-logo flex relative py-8">
           <img
