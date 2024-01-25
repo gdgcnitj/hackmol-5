@@ -15,6 +15,12 @@ function Rules() {
     },
     {
       color: "#006CEF",
+      rule: "Students from First year only can participate in the Freshers Track and students from 2nd year and beyond can participate in Main Track",
+      align: "left",
+      svg_url: rec2.src,
+    },
+    {
+      color: "#006CEF",
       rule: "Team members could be from different institutions as well. Collab on different ideas and different technical domains, showcase your techstack and win this Hackmol edition.",
       align: "right",
       svg_url: rec2.src,
@@ -28,9 +34,9 @@ function Rules() {
     {
       color: "#FECB4A",
       rule: "After registration, you have to submit your idea via PPT before 10th Feb 2024. Qualifying students will be shared the result via registered details.",
-      align: "left",
+      align: "right",
       svg_url: rec4.src,
-    },
+    }
   ];
 
   return (
@@ -44,7 +50,7 @@ function Rules() {
             <div className=" font-Minecraft text-7xl mb-6 font-Minecrafter text-black">
               RULES
             </div>
-            <div className="w-3/4 rules__desc mb-10 text-black font-Space-Grotesk text-center">
+            <div className="w-3/4 rules__desc mb-10 text-black font-Space-Grotesk text-center text-xl">
               Each Participant must adhere to Code of Conduct, Registration, Elgibility, Judging Criteria and Disqualification as follows. 
             </div>
             <div className="md:w-3/4 space-y-2 p-4">
