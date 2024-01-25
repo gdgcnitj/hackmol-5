@@ -1,9 +1,10 @@
 "use client";
-import React, { useState } from "react";
+import React from "react";
 import { useEffect } from "react";
 import heroText from "../../../public/images/HeroText.svg";
 import linkArrow from "../../../public/images/LinkArrow.svg";
 import HeroSectionImg from "../../../public/images/HeroSection.svg";
+import Image from "next/image";
 
 function HeroSection() {
   useEffect(() => {
@@ -48,13 +49,13 @@ function HeroSection() {
       className="relative w-full h-[2450px] no-repeat bg-cover bg-center"
       style={{ backgroundImage: `url(${HeroSectionImg.src})` }}
     >
+      <img className='absolute top-0 left-0 w-full h-full -z-5' width={100} height={100} src={HeroSectionImg.src}/>
       <div className="flex flex-col justify-center items-center relative top-[6rem]">
         <div className="hero-logo flex relative py-8">
           <img
-            data-src={heroText.src} // Use data-src for lazy loading
+            src={heroText.src} // Use data-src for lazy loading
             style={{ mixBlendMode: "hard-light" }}
             className="w-[22rem] sm:w-[40rem] lg:w-[60rem]"
-            loading="eager" // Enable lazy loading
           />
         </div>
         <div className="hero-text font-Minecraft text-2xl sm:text-4xl lg:text-6xl font-normal flex relative py-8 flex-col justify-center items-center">
