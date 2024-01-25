@@ -1,7 +1,6 @@
 import React from "react";
 
 export default function TracksPrizesCards({ props }) {
-  console.log(props);
   return (
     <div className="flex p-8 font-Poppins bg-[#231E35] text-white rounded-xl">
       <div className="flex flex-col items-start w-1/2 h-full gap-2 px-2">
