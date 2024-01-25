@@ -9,6 +9,7 @@ import SpecialTracks from "./SpecialTracks";
 export default function TracksPrizes() {
   const trackArr = [
     {
+      id: 1,
       img: main,
       title: "Main Track",
       desc: "For 2nd year and above students",
@@ -35,6 +36,7 @@ export default function TracksPrizes() {
       ],
     },
     {
+      id: 2,
       img: freshers,
       title: "Freshers Track",
       desc: "For 1st year students only",
@@ -64,6 +66,7 @@ export default function TracksPrizes() {
 
   const specialTracks = [
     {
+      id: 3,
       img: polygon,
       companyName: "Polygon Special Track",
       amount: "$ 350",
@@ -79,16 +82,17 @@ export default function TracksPrizes() {
       ],
     },
     {
-        img: replit,
-        companyName: "Replit Special Track",
-        amount: "$ 50",
-        points: [
-          {
-            amount: "$ 50",
-            title: "Replit Track",
-          }
-        ],
-      },
+      id: 4,
+      img: replit,
+      companyName: "Replit Special Track",
+      amount: "$ 50",
+      points: [
+        {
+          amount: "$ 50",
+          title: "Replit Track",
+        },
+      ],
+    },
   ];
 
   return (
@@ -96,13 +100,13 @@ export default function TracksPrizes() {
       <h1 className="font-Minecraft text-6xl text-center">Tracks</h1>
       <div className="flex flex-wrap justify-center gap-6 m-4">
         {trackArr.map((track) => (
-          <TracksPrizesCards props={track} />
+          <TracksPrizesCards key={track.id} props={track} />
         ))}
       </div>
       <h1 className="font-Minecraft text-6xl text-center">Special Tracks</h1>
       <div className="flex flex-wrap justify-center gap-6 m-4">
         {specialTracks.map((track) => (
-          <SpecialTracks props={track} />
+          <SpecialTracks key={track.id} props={track} />
         ))}
       </div>
     </div>
