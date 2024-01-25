@@ -37,6 +37,7 @@ function HeroSection() {
           <div className="flex relative">THINK OUTSIDE THE BOX</div>
           <div className="flex relative">HACK INSIDE IT</div>
         </div>
+        <div className="text-center text-5xl p-4"><b>24-25 February, 2024</b></div>
         <div className="flex relative flex-col justify-center items-center">
           <div className="flex relative text-2xl font-bold font-Space-Grotesk py-3">
             Dig deeper
@@ -50,12 +51,12 @@ function HeroSection() {
           >
             <img src={linkArrow.src} loading="eager" />
           </div>
-          <div className="flex md:flex-col items-center gap-4 sm:flex-row">
+          <div className="flex md:flex-col items-center gap-4 sm:flex-wrap">
             <div
-              className="apply-button p-2"
+              className="w-[480px] h-[80px] p-2"
               data-hackathon-slug="hackmol-5"
               data-button-theme="light"
-              style={{ width: "480px", height: "60px" }}
+              style={{}}
             ></div>
             <button
               onClick={() =>
