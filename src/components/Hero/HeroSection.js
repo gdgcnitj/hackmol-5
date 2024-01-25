@@ -53,7 +53,7 @@ function HeroSection() {
           </div>
           <div className="flex md:flex-col items-center gap-4 sm:flex-wrap">
             <div
-              className="w-[480px] h-[80px] p-2"
+              className="apply-button w-[480px] h-[80px] p-2"
               data-hackathon-slug="hackmol-5"
               data-button-theme="light"
               style={{}}
