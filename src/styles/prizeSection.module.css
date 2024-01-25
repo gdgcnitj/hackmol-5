@@ -360,21 +360,6 @@ flex-shrink: 0;
         max-width: 500px;
         min-width: 300px;
     }
-
-    /* .left_card_img,
-    .right_card_img,
-    .center_card_img {
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
-    }
-
-    .left_card_content,
-    .right_card_content,
-    .center_card_content {
-        border-bottom-left-radius: 20px;
-        border-bottom-right-radius: 20px;
-    } */
-
     .left_card_box,
     .right_card_box,
     .center_card_box {

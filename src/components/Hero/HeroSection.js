@@ -3,13 +3,9 @@ import React, { useState } from "react";
 import { useEffect } from "react";
 import heroText from "../../../public/images/HeroText.svg";
 import linkArrow from "../../../public/images/LinkArrow.svg";
-import regButton from "../../../public/images/RegisterButton.svg";
-import regButtonHover from "../../../public/images/RegisterButtonHover.svg";
 import HeroSectionImg from "../../../public/images/HeroSection.svg";
 
 function HeroSection() {
-  const [isHovered, setIsHovered] = useState(false);
-
   useEffect(() => {
     // IntersectionObserver to handle lazy loading
     const observer = new IntersectionObserver(
@@ -56,10 +52,9 @@ function HeroSection() {
         <div className="hero-logo flex relative py-8">
           <img
             data-src={heroText.src} // Use data-src for lazy loading
-            alt="#"
             style={{ mixBlendMode: "hard-light" }}
             className="w-[22rem] sm:w-[40rem] lg:w-[60rem]"
-            loading="lazy" // Enable lazy loading
+            loading="eager" // Enable lazy loading
           />
         </div>
         <div className="hero-text font-Minecraft text-2xl sm:text-4xl lg:text-6xl font-normal flex relative py-8 flex-col justify-center items-center">
@@ -77,7 +72,7 @@ function HeroSection() {
               window.scrollTo({ top: scrollDiv, behavior: "smooth" });
             }}
           >
-            <img data-src={linkArrow.src} alt="#" loading="lazy" />
+            <img data-src={linkArrow.src}  loading="eager" />
           </div>
           <div className="flex flex-col-reverse justify-center items-center gap-4 sm:flex-row">
             <div

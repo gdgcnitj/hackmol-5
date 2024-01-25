@@ -10,12 +10,6 @@ nav.navbar a.navbar-brand {
   width: 9%;
 }
 
-/* 
-  .header {
-    display: flex;
-    justify-content: space-between;
-  } */
-
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 700;
   color: white;
@@ -771,21 +765,3 @@ nav.navbar.scrolled .header-name {
   left: 370%;
 }
 
-@media (max-width: 900px) {
-  .marquee {
-    background: #79ff4a;
-    height: 65px;
-    justify-content: flex-start;
-    align-items: center;
-  }
-}
-@media (min-width: 900px) {
-  .marquee {
-    background: #79ff4a;
-    height: 65px;
-    padding: 7px;
-    justify-content: flex-start;
-    align-items: center;
-    color: white;
-  }
-}
