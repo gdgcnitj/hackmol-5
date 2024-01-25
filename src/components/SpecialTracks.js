@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function ({props}) {
+export default function SpecialTracks({props}) {
   return (
     <div className='flex flex-col gap-4 font-Poppins bg-[#231E35] text-white rounded-xl p-6'>
         <div className='h-[40%] w-full overflow-hidden'>
