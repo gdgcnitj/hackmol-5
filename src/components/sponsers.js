@@ -31,9 +31,8 @@ export default function SponsersPage() {
         link:'https://balsamiq.cloud/#'
       },
       { 
-        image: 'https://plaksha.edu.in/assets/logo-green.png?v=2',
-        label: 'PLAKSHA UNIVERIRY',
-        link:'https://plaksha.edu.in/'
+        image: '/IICLogo.svg',
+        label: 'INSTITUTION INOVATION COUNCIL',
       },
       { 
         image: 'https://lirp.cdn-website.com/a0c12d1a/dms3rep/multi/opt/LL+Full+Black+Favicon+Rounded+Square-1920w.png',
@@ -51,7 +50,7 @@ export default function SponsersPage() {
 }
   const Card = ({image,label,link}) =>{
     return (
-      <div className="flex items-center  justify-center hover:opacity-60 cursor-pointer" onClick={()=>{window.open(link,"_blank")}} >
+      <div className={`flex items-center  justify-center hover:opacity-60 ${link?'cursor-pointer':''}`} onClick={()=>{if(link)window.open(link,"_blank")}} >
           <img src={image} alt={label} className="w-70 h-16 object-contain hover:text-gray-500 dark:hover:text-white"/>
       </div>
     )
