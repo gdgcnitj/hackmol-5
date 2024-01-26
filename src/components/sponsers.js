@@ -1,4 +1,3 @@
-import Image from "next/image"
 export default function SponsersPage() {
   const data = {
     gold: [
@@ -21,6 +20,31 @@ export default function SponsersPage() {
       },
     ],
     bronze:[
+      {
+        image:'/wolframalpha.svg',
+        label: 'WOLGRAMALPHA',
+        link:'https://www.wolframalpha.com/'
+      },
+      {
+        image:'/balsamiq.svg',
+        label: 'BALSAMIQ',
+        link:'https://balsamiq.cloud/#'
+      },
+      { 
+        image: 'https://plaksha.edu.in/assets/logo-green.png?v=2',
+        label: 'PLAKSHA UNIVERIRY',
+        link:'https://plaksha.edu.in/'
+      },
+      { 
+        image: 'https://lirp.cdn-website.com/a0c12d1a/dms3rep/multi/opt/LL+Full+Black+Favicon+Rounded+Square-1920w.png',
+        label: 'LEADING LEARNERS',
+        link:'https://www.leading-learners.com/'
+      },
+      { 
+        image: 'https://placewit.com/images/headerlogo.png',
+        label: 'PLACEWIT',
+        link:'https://placewit.com/'
+      },
 
     ],
     
@@ -28,7 +52,7 @@ export default function SponsersPage() {
   const Card = ({image,label,link}) =>{
     return (
       <div className="flex items-center  justify-center hover:opacity-60 cursor-pointer" onClick={()=>{window.open(link,"_blank")}} >
-          <img src={image} alt={label} className="h-16 hover:text-gray-500 dark:hover:text-white"/>
+          <img src={image} alt={label} className="w-70 h-16 object-contain hover:text-gray-500 dark:hover:text-white"/>
       </div>
     )
   }
