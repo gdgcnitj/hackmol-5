@@ -1,18 +1,13 @@
 import Marquee from "../components/Hero/marquee";
-import Testimonies from "../components/Testimonies";
 import Timeline from "../components/Timeline";
 import About from "../components/About";
 import Rules from "../components/Rules/Rules";
-import FAQ from "../components/FAQ/FAQ";
-import PrizeSection from "../components/PrizeSection";
-import Track from "../components/track";
+import FAQ from "../components/FAQ/FAQ"
 import Footer from "../components/Footer";
 import HeroSection from "../components/Hero/HeroSection";
-import JudgesSection from "../components/Judges/JudgesSection";
 import Header from "../components/Hero/Header";
 import NavBar from "../components/Hero/NavBar";
 import SponsersPage from "../components/sponsers";
-import StatusHeader from "../components/StatusHeader";
 import TracksPrizes from "../components/TracksPrizes";
 
 export default function Home() {

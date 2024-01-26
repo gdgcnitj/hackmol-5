@@ -11,14 +11,14 @@ export default function TracksPrizesCards({ props }) {
           <h1 className="text-4xl text-wrap">
             <b>{props.title}</b>
           </h1>
-          <div className="flex flex-col gap-2 w-10/12">
+          {/* <div className="flex flex-col gap-2 w-10/12">
             <h1 className="text-3xl">
               <b>Prize Pool</b>
             </h1>
             <h2 className="text-2xl">
               <b>{`${props.amount}`}</b>
             </h2>
-          </div>
+          </div> */}
           {props.ranks.map((rank) => {
             return (
               <div key={rank.title}>
