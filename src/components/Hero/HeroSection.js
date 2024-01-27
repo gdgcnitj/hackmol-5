@@ -51,9 +51,9 @@ function HeroSection() {
           >
             <img src={linkArrow.src} loading="eager" />
           </div>
-          <div className="flex md:flex-col items-center gap-4 sm:flex-wrap">
+          <div className="flex flex-col items-center gap-4 sm:flex-wrap">
             <div
-              className="apply-button w-[480px] h-[80px] p-2"
+              className="apply-button w-[480px] h-[80px] p-2 overflow-y-hidden"
               data-hackathon-slug="hackmol-5"
               data-button-theme="light"
               style={{}}
