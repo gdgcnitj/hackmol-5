@@ -15,7 +15,7 @@ function Rules() {
     },
     {
       color: "#006CEF",
-      rule: "Students from First year only can participate in the Freshers Track and students from 2nd year and beyond can participate in Main Track",
+      rule: "Fresher track exclusively open to 1st-year students, while the main track welcomes participants from any academic year",
       align: "left",
       svg_url: rec2.src,
     },
