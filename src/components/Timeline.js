@@ -61,7 +61,7 @@ function Timeline() {
           >
             <div className="flex justify-between">
               <div className={`${style2.daytext}`}>DAY1</div>{" "}
-              <div className="flex text-black-200">17 FEB-2024</div>
+              <div className="flex text-black-200">24 FEB-2024</div>
             </div>
             <div className={` ${style2.borderbox}  ${style2.paddinginbox}`}>
               <div>Hackathon Opening Ceremony</div>{" "}
@@ -129,7 +129,7 @@ function Timeline() {
           >
             <div className="flex justify-between">
               <div className={`${style2.daytext}`}>DAY2</div>{" "}
-              <div className="text-black-200">18 FEB-2024</div>
+              <div className="text-black-200">25 FEB-2024</div>
             </div>
             <div className={` ${style2.borderbox}  ${style2.paddinginbox}`}>
               <div>Mid Night Evaluation</div>{" "}

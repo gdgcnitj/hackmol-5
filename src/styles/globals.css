@@ -66,6 +66,10 @@ body::-webkit-scrollbar-thumb
 	background-color: #575757;
 }
 
+iframe{
+  overflow: hidden;
+}
+
 @media (max-width: 900px) {
   .marquee {
     background: #79ff4a;
