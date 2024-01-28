@@ -44,8 +44,16 @@ export default function SponsersPage() {
         label: 'PLACEWIT',
         link:'https://placewit.com/'
       },
-
+      
     ],
+    upSkill:[
+      { 
+        image: 'https://thedevstarter.com/logo.svg',
+        label: 'THEDEVSTARTER',
+        link:'https://thedevstarter.com/'
+      },
+      
+    ]
     
 }
   const Card = ({image,label,link}) =>{
@@ -90,6 +98,16 @@ export default function SponsersPage() {
             </div>
             <div className="flex flex-row flex-wrap  justify-center md:gap-8 gap-6">
             {data.bronze.length===0?<div>Coming Soon</div>:data.bronze.map((sponser,index)=>{
+                return <Card image={sponser.image} key={index} link={sponser.link} label={sponser.label}/>
+              })}
+            </div>
+          </div>
+          <div className="flex flex-col justify-center gap-8">
+            <div className="md:text-5xl text-3xl font-bold font-Space-Grotesk text-center">
+              Up Skilling Partner 
+            </div>
+            <div className="flex flex-row flex-wrap  justify-center md:gap-8 gap-6">
+            {data.upSkill.length===0?<div>Coming Soon</div>:data.upSkill.map((sponser,index)=>{
                 return <Card image={sponser.image} key={index} link={sponser.link} label={sponser.label}/>
               })}
             </div>
