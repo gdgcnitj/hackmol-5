@@ -1,3 +1,4 @@
+import Image from "next/image";
 
 function RulesPoint({ Desc, color, alignment, icon }) {
   const getAlign = () => {
@@ -15,7 +16,7 @@ function RulesPoint({ Desc, color, alignment, icon }) {
           marginRight: alignment === "right" ? "-3rem" : "0",
         }}
       >
-        <img src={icon} alt="img" />
+        <Image src={icon} alt="img" className='w-full h-full' width={0} height={0} />
       </div>
       <div
         className={card_style}
