@@ -1,13 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 import { useEffect } from "react";
 import heroText from "../../../public/images/HeroText.svg";
 import linkArrow from "../../../public/images/LinkArrow.svg";
 import HeroSectionImg from "../../../public/images/HeroSection.svg";
-import regButtonHover from "../../../public/images/RegisterButtonHover.svg";
-import regButton from "../../../public/images/RegisterButton.svg";
 
 function HeroSection() {
-  const [isHovered, setIsHovered] = useState(false);
+
   useEffect(() => {
     const script = document.createElement("script");
     script.src = "https://apply.devfolio.co/v2/sdk.js";

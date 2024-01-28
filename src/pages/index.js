@@ -21,9 +21,7 @@ export default function Home() {
       <About />
       <Timeline />
       {<TracksPrizes/>}
-      {/* <PrizeSection /> */}
       <Rules />
-      {/* <Track /> */}
       {/* <JudgesSection /> */}
       {/* <Testimonies /> */}
       
