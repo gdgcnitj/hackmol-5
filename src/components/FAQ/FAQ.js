@@ -5,8 +5,12 @@ let FAQ = function () {
   const [showAll, setShowAll] = useState(false);
   const [qa, setQA] = useState([
     {
-      ques: "What is a Hackathon and who are eligible to participate in HackMol5.0 ?",
-      ans: "A Hackathon is an intense event that brings together designers and developers along with industry experts to identify problems and create software solutions, usually within 24-48 hours. If you're a student developer, we'd love to have you at HackMol5.0! Whether that's a undergrad, or graduate, we believe you can get something out of the event.",
+      ques: "What is a Hackathon ?",
+      ans: "A Hackathon is an intense event that brings together designers and developers along with industry experts to identify problems and create software solutions, usually within 24-48 hours.",
+    },
+    {
+       ques:"Who are eligible to participate in HackMol5.0 ?",
+       ans:" If you're a student developer, we'd love to have you at HackMol5.0! Whether that's a undergrad, or graduate, we believe you can get something out of the event.\n This dynamic event invites participants from all walks of academia, including those in their 1st, 2nd, and 3rd years, whether you're pursuing your studies at NITJ or any other college.",
     },
     {
       ques: "What can be the size of team?",
