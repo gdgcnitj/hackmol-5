@@ -10,7 +10,7 @@ let FAQ = function () {
     },
     {
        ques:"Who are eligible to participate in HackMol5.0 ?",
-       ans:" If you're a student developer, we'd love to have you at HackMol5.0! Whether that's a undergrad, or graduate, we believe you can get something out of the event.\n This dynamic event invites participants from all walks of academia, including those in their 1st, 2nd, and 3rd years, whether you're pursuing your studies at NITJ or any other college.",
+       ans:"This dynamic event invites participants from all walks of academia, including those in their 1st, 2nd, and 3rd years, whether you're pursuing your studies at NITJ or any other college.",
     },
     {
       ques: "What can be the size of team?",
