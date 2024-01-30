@@ -36,7 +36,7 @@ function HeroSection() {
   };
 
   return (
-    <div className="relative w-full h-[500px] sm:h-[800px] md:h-[1000px] lg:h-[1200px]  xl:h-[2000px]  bg-[#070201] overflow-hidden">
+    <div className="relative w-full h-[620px] sm:h-[780px] md:h-[1000px] lg:h-[1200px] xl:h-[2200px]  2xl:h-[2400px]  bg-[#070201] overflow-hidden">
       <div className='absolute w-full top-12 left-0 z-40'>
         <div className="w-full relative lg:relative text-center">
           <div className="flex align-center justify-center py-8">
@@ -65,7 +65,7 @@ function HeroSection() {
             </div>
             <div className="flex flex-col items-center gap-1 sm:gap-2 lg:gap-4 sm:flex-wrap">
               <div
-                className="apply-button w-[480px] h-[80px] p-2"
+                className="apply-button w-[200px] sm:w-[480px] h-[80px] p-2"
                 data-hackathon-slug="hackmol-5"
                 data-button-theme="light"
               ></div>
@@ -112,7 +112,7 @@ function HeroSection() {
           />
         </div>
       </Parallax>
-      <Parallax speed={7} className='absolute bottom-0 left-0 w-full'>
+      <Parallax speed={11} className='absolute bottom-0 left-0 w-full'>
         <div className="w-full">
           <img
             className="w-full object-contain"
