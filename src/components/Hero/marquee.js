@@ -4,7 +4,7 @@ import Marquee from 'react-fast-marquee'
 
 function MarqueeComponent() {
   return (
-    <div className='bg-black text-white py-2 relative z-10 '>
+    <div className='text-white bg-black'>
       <div className=''>
         <Marquee
           play={true}
