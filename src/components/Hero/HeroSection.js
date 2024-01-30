@@ -36,7 +36,7 @@ function HeroSection() {
   };
 
   return (
-    <div className="relative w-full h-[580px] sm:h-[700px] md:h-[900px] lg:h-[1200px] xl:h-[2100px]  2xl:h-[2120px]  bg-[#070201] overflow-hidden">
+    <div className="relative w-full h-[580px] sm:h-[700px] md:h-[900px] lg:h-[1200px] xl:h-[2100px]  2xl:h-[2200px]  bg-[#070201] overflow-hidden">
        <Parallax className='relative top-0 left-0 w-full' speed={0} >
         <div className="w-full">
           <img
@@ -104,7 +104,7 @@ function HeroSection() {
         </div>
       </Parallax>
      
-      <Parallax speed={10} className='absolute top-44 md:top-60 lg:top-80 left-0 w-full' >
+      <Parallax speed={15} className='absolute top-44 md:top-60 lg:top-80 left-0 w-full' >
         <div className="w-full">
           <img
             className="w-full object-contain"
@@ -113,7 +113,7 @@ function HeroSection() {
           />
         </div>
       </Parallax>
-      <Parallax speed={8} className='absolute bottom-0 left-0 w-full'>
+      <Parallax speed={20} className='absolute bottom-10 sm:bottom-0 left-0 w-full'>
         <div className="w-full">
           <img
             className="w-full object-contain"
