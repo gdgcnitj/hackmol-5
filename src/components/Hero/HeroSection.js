@@ -36,7 +36,7 @@ function HeroSection() {
   };
 
   return (
-    <div className="relative w-full h-[620px] sm:h-[780px] md:h-[1000px] lg:h-[1200px] xl:h-[2200px]  2xl:h-[2400px]  bg-[#070201] overflow-hidden">
+    <div className="relative w-full h-[620px] sm:h-[780px] md:h-[1000px] lg:h-[1200px] xl:h-[2200px]  2xl:h-[2280px]  bg-[#070201] overflow-hidden">
       <div className='absolute w-full top-12 left-0 z-40'>
         <div className="w-full relative lg:relative text-center">
           <div className="flex align-center justify-center py-8">

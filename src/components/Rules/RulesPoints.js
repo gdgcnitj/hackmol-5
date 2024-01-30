@@ -10,7 +10,7 @@ function RulesPoint({ Desc, color, alignment, icon }) {
   return (
     <div className={`flex ${getAlign()} items-center`}>
       <div
-        className={`hidden sm:block z-30`}
+        className={`block z-30`}
         style={{
           marginLeft: alignment === "left" ? "-3rem" : "0",
           marginRight: alignment === "right" ? "-3rem" : "0",
@@ -26,7 +26,7 @@ function RulesPoint({ Desc, color, alignment, icon }) {
           borderStyle: "solid",
         }}
       >
-        <div className={`font-medium text-xl px-10 font-Space-Grotesk`}>
+        <div className={`font-medium text-[15px] md:text-xl px-10 font-Space-Grotesk`}>
           {Desc} 
         </div>
       </div>
