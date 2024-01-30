@@ -16,7 +16,7 @@ import clock from "../../public/images/timeline/clock.svg";
 function Timeline() {
   return (
     <div id="schedule" className={`p-10 mt-6 mb-6`}>
-      <div className={`font-Minecraft text-7xl text-center p-4 text-black`}>
+      <div className={`font-Minecraft text-4xl sm:text-7xl text-center p-4 text-black`}>
         EVENT TIMELINE
       </div>
       <div className="flex justify-center align-center p-6">
