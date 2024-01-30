@@ -2,7 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import Marquee from 'react-fast-marquee'
 
-const marqueee = () => {
+function MarqueeComponent() {
   return (
     <div className='bg-black text-white py-2 relative z-10 '>
       <div className=''>
@@ -33,4 +33,4 @@ const marqueee = () => {
   )
 }
 
-export default marqueee
+export default MarqueeComponent
