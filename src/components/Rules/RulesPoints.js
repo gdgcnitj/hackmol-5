@@ -26,7 +26,7 @@ function RulesPoint({ Desc, color, alignment, icon }) {
           borderStyle: "solid",
         }}
       >
-        <div className={`font-medium text-[15px] md:text-xl px-10 font-Space-Grotesk`}>
+        <div className={`font-medium text-[9px] md:text-xl px-10 font-Space-Grotesk`}>
           {Desc} 
         </div>
       </div>
