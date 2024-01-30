@@ -22,7 +22,7 @@ export default function Home() {
       {/* <HeroSection /> */}
       <Temp/>
       
-       {/* <MarqueeComponent/> */}
+       <MarqueeComponent/> 
       <About />
       <Timeline />
       {<TracksPrizes/>}
