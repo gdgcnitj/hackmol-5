@@ -5,14 +5,14 @@ import image2 from "../../public/images/about2.jpg";
 import image3 from "../../public/images/about3.jpg";
 import image4 from "../../public/images/about4.jpg";
 import image5 from "../../public/images/about5.jpg";
-import image6 from "../../public/images/about6.png";
+import image6 from "../../public/images/team.png";
 
 const About = (props) => {
   const [selectedImage, setSelectedImage] = useState(0);
   const images = [
     // image1,
     image2,
-    image3,
+    // image3,
     image4,
     image5,
     image6,
@@ -30,9 +30,9 @@ const About = (props) => {
     <div id="about" className="w-full h-full bg-[#1F1F1F] p-10">
       <div className="flex-col flex items-center gap-y-10 m-5">
         <div className="text-center text-white text-3xl sm:text-6xl lg:text-8xl font-Minecraft leading-10">
-          ABOUT HACKMOL
+          ABOUT HACKMOL 
         </div>
-        <div className="text-center text-white text-xl lg:text-3xl font-normal font-Space-Grotesk leading-5 sm:leading-9">
+        <div className="text-center text-white text-xl lg:text-2xl font-normal font-Space-Grotesk leading-5 sm:leading-9">
           HackMol 5.0 is fifth-edition of community-focused 30-hour hackathon
           organized by DSC NIT Jalandhar. Tailored to cater to both beginners
           and experts, this event provides an excellent opportunity to showcase
@@ -46,10 +46,8 @@ const About = (props) => {
           <Image
             src={images[selectedImage].src}
             alt={`Image ${selectedImage + 1}`}
-            width="720"
-            height="720"
-            loading="lazy"
-            className="object-cover"
+            width={720}
+            height={720}
           />
         </div>
         <div className="flex w-4/5 justify-between items-center mt-3 pt-3">
@@ -59,7 +57,7 @@ const About = (props) => {
           >
             <img src={`/images/Arrow.png`}></img>
           </div>
-          <div className="ImgDescription flex justify-between items-between text-white sm:text-xl font-normal font-Space-Grotesk leading-4 sm:leading-8 py-3">
+          <div className="ImgDescription flex justify-between items-between text-white md:text-2xl sm:text-xl font-normal font-Space-Grotesk leading-4 sm:leading-8 py-8">
             <span>Collaborate, Innovate and Win</span>
           </div>
           <div
@@ -70,25 +68,25 @@ const About = (props) => {
           </div>
         </div>
 
-        {/* <div className="flex gap-2">
+        <div className="flex gap-2">
           {images.map((image, index) => (
             <div
               key={index}
-              className={`w-180 h-180 cursor-pointer opacity-70 hover:opacity-100 ${index === selectedImage ? 'border-2  border-[#61FF00]' : ''
+              className={`w-100 h-100 cursor-pointer opacity-70 hover:opacity-100 ${index === selectedImage ? 'border-2  border-[#61FF00]' : ''
                 }`}
               onClick={() => setSelectedImage(index)}
             >
               <Image
                 src={image.src}
                 alt={`Thumbnail ${index + 1}`}
-                width={1000} // Adjust the width as needed
-                height={800} // Adjust the height as needed
-                loading="lazy" // Add lazy loading attribute
+                width={200} // Adjust the width as needed
+                height={200} // Adjust the height as needed
+                loading="lazy"
                 className='w-full h-full flex-shrink-0'
               />
             </div>
           ))}
-        </div> */}
+        </div>
       </div>
     </div>
   );

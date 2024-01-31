@@ -1,22 +1,15 @@
 import Image from "next/image";
 
 function RulesPoint({ Desc, color, alignment, icon }) {
-  const getAlign = () => {
-    return alignment === "left" ? "flex-row-reverse" : "";
-  };
 
   let card_style = `bg-white w-full h-full p-2 border-5 flex justify-center font-bold text-center`
 
   return (
-    <div className={`flex ${getAlign()} items-center`}>
+    <div className={`flex  items-center relative`}>
       <div
-        className={`block z-30`}
-        style={{
-          marginLeft: alignment === "left" ? "-3rem" : "0",
-          marginRight: alignment === "right" ? "-3rem" : "0",
-        }}
-      >
-        <Image src={icon} alt="img" className='w-full h-full' width={0} height={0} />
+        className={`block z-30 ${alignment === 'left' ? '-left-20' : '-right-20'} absolute`}
+        >
+        <Image src={icon} alt="img" className={`w-full h-full opacity-80`} width={0} height={0} />
       </div>
       <div
         className={card_style}
@@ -26,7 +19,7 @@ function RulesPoint({ Desc, color, alignment, icon }) {
           borderStyle: "solid",
         }}
       >
-        <div className={`font-medium text-[9px] md:text-xl px-10 font-Space-Grotesk`}>
+        <div className={`font-medium text-[9px] md:text-xl p-5 z-11 font-Space-Grotesk`}>
           {Desc} 
         </div>
       </div>
