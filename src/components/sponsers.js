@@ -71,7 +71,7 @@ export default function SponsersPage() {
         <div className="max-w-7xl mx-auto flex flex-col justify-around gap-16 my-12 px-4">
 
           <div className="flex flex-col justify-center gap-12">
-            <div className="md:text-7xl text-3xl mt-6 font-bold text-[#FFD700] font-Space-Grotesk text-center">
+            <div className="md:text-4xl text-3xl mt-6 font-bold text-[#FFD700] font-Space-Grotesk text-center">
               Gold Sponsors
             </div>
             <div className="flex flex-row flex-wrap  justify-center md:gap-8 gap-6">
@@ -82,7 +82,7 @@ export default function SponsersPage() {
           </div>
 
           <div className="flex flex-col justify-center gap-8">
-            <div className="md:text-6xl text-3xl font-bold font-Space-Grotesk text-center text-[#C0C0C0]">
+            <div className="md:text-4xl text-3xl font-bold font-Space-Grotesk text-center text-[#C0C0C0]">
               Silver Sponsors
             </div>
             <div className="flex flex-row flex-wrap  justify-center md:gap-8 gap-6">
@@ -93,7 +93,7 @@ export default function SponsersPage() {
           </div>
 
           <div className="flex flex-col justify-center gap-8">
-            <div className="md:text-5xl text-3xl font-bold font-Space-Grotesk text-center text-[#CD7F32]">
+            <div className="md:text-4xl text-3xl font-bold font-Space-Grotesk text-center text-[#CD7F32]">
               Bronze Sponsors
             </div>
             <div className="flex flex-row flex-wrap  justify-center md:gap-8 gap-6">
@@ -103,7 +103,7 @@ export default function SponsersPage() {
             </div>
           </div>
           <div className="flex flex-col justify-center gap-8">
-            <div className="md:text-5xl text-3xl font-bold font-Space-Grotesk text-center">
+            <div className="md:text-4xl text-3xl font-bold font-Space-Grotesk text-center">
               Up Skilling Partner 
             </div>
             <div className="flex flex-row flex-wrap  justify-center md:gap-8 gap-6">
