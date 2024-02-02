@@ -83,7 +83,8 @@ function HeroSection() {
                 <div className="relative cursor-pointer w-44 sm:w-60 sm:h-50 h-20" onClick={() =>
                   window.open(
                     "https://discord.com/invite/9ZdMjnqt",
-                    "_blank"
+                    "_blank",
+                    'noreferrer'
                   )
                 }>
                   <Image
