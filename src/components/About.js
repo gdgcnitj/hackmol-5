@@ -6,9 +6,10 @@ import image3 from "../../public/images/about3.jpg";
 import image4 from "../../public/images/about4.jpg";
 import image5 from "../../public/images/about5.jpg";
 import image6 from "../../public/images/team.png";
-
+import useNextBlurhash from "use-next-blurhash";
 const About = (props) => {
   const [selectedImage, setSelectedImage] = useState(0);
+  const [blurDataUrl] = useNextBlurhash("LEHV6nWB2yk8pyo0adR*.7kCMdnj");
   const images = [
     // image1,
     image2,
@@ -48,6 +49,8 @@ const About = (props) => {
             alt={`Image ${selectedImage + 1}`}
             width={720}
             height={720}
+            placeholder="blur"
+            blurDataURL={blurDataUrl}
           />
         </div>
         <div className="flex w-4/5 justify-between items-center mt-3 pt-3">
@@ -82,6 +85,8 @@ const About = (props) => {
                 width={200} // Adjust the width as needed
                 height={200} // Adjust the height as needed
                 className='w-full h-full flex-shrink-0'
+                placeholder="blur"
+                blurDataURL={blurDataUrl}
               />
             </div>
           ))}
