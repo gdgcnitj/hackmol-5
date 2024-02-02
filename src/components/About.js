@@ -81,7 +81,6 @@ const About = (props) => {
                 alt={`Thumbnail ${index + 1}`}
                 width={200} // Adjust the width as needed
                 height={200} // Adjust the height as needed
-                loading="lazy"
                 className='w-full h-full flex-shrink-0'
               />
             </div>
