@@ -66,10 +66,10 @@ function HeroSection() {
             <div className="flex">THINK OUTSIDE THE BOX</div>
             <div className="flex">HACK INSIDE IT</div>
           </div>
-          <div className="text-center font-bold text-white sm:text-black font-Minecraft text-xl lg:text-5xl p-4">
+          {/*<div className="text-center font-bold text-white sm:text-black font-Minecraft text-xl lg:text-5xl p-4">
             <b>24-25 February, 2024</b>
-          </div>
-          <div className="text-center text-xl sm:text-2xl text-white sm:text-black lg:text-4xl font-normal font-Minecraft p-4">
+          </div>*/}
+          <div className="text-center text-xl sm:text-2xl text-white sm:text-black lg:text-4xl font-normal p-4">
             <b>Register till 9 Feb</b>
           </div>
           <div className="flex flex-col justify-center items-center text-white sm:text-black">
