@@ -42,10 +42,9 @@ function HeroSection() {
             width={1920}
             height={1080}
             className="w-full object-contain"
-            src={HeroSky.src}
+            src={HeroSky}
             alt="Hero Sky"
             placeholder="blur"
-            
           />
         </div>
       </Parallax>
@@ -58,7 +57,9 @@ function HeroSection() {
               src={HeroText.src}
               className="w-[17rem] sm:w-[20rem] lg:w-[60rem]"
               alt="Hero Text"
-              placeholder="blur"
+
+             
+             
             />
           </div>
           <div className="font-Minecraft text-xl sm:text-2xl lg:text-4xl font-normal flex py-6 flex-col justify-center items-center">
@@ -116,9 +117,10 @@ function HeroSection() {
             width={1920}
             height={1080}
             className="w-full object-contain"
-            src={HeroMid.src}
+            src={HeroMid}
             alt="Hero Mid"
             placeholder="blur"
+         
           />
         </div>
       </Parallax>
@@ -128,9 +130,10 @@ function HeroSection() {
             width={1920}
             height={1080}
             className="w-full object-contain"
-            src={HeroBottom.src}
+            src={HeroBottom}
             alt="Hero Bottom"
             placeholder="blur"
+            
           />
         </div>
       </Parallax>

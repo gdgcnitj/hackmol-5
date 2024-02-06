@@ -38,12 +38,12 @@ export default function SponsersPage() {
         image: 'https://lirp.cdn-website.com/a0c12d1a/dms3rep/multi/opt/LL+Full+Black+Favicon+Rounded+Square-1920w.png',
         label: 'LEADING LEARNERS',
         link:'https://www.leading-learners.com/'
+      },
+      { 
+        image: 'https://static.otta.com/uploads/images/company-logos/9759-TW0NmaH0VRaHyql3ANFckcAisdwrapOuXAS6qtkrtrc.png',
+        label: 'echo3d',
+        link:'https://www.echo3d.com/'
       }
-      // { 
-      //   image: 'https://placewit.com/images/headerlogo.png',
-      //   label: 'PLACEWIT',
-      //   link:'https://placewit.com/'
-      // },
       
     ],
     upSkill:[
