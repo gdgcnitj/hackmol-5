@@ -44,10 +44,11 @@ const About = (props) => {
       <div className="w-full h-full flex flex-col justify-center items-center mt-20">
         <div className="">
           <Image
-            src={images[selectedImage].src}
+            src={images[selectedImage]}
             alt={`Image ${selectedImage + 1}`}
             width={720}
             height={720}
+            placeholder="blur"
           />
         </div>
         <div className="flex w-4/5 justify-between items-center mt-3 pt-3">
@@ -77,11 +78,12 @@ const About = (props) => {
               onClick={() => setSelectedImage(index)}
             >
               <Image
-                src={image.src}
+                src={image}
                 alt={`Thumbnail ${index + 1}`}
                 width={200} // Adjust the width as needed
                 height={200} // Adjust the height as needed
                 className='w-full h-full flex-shrink-0'
+                placeholder="blur"
               />
             </div>
           ))}

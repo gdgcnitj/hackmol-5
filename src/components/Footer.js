@@ -27,7 +27,7 @@ export default function Footer() {
                             <Image src="/GDSCLogo.svg" width={3000} height={1000} className="md:w-64 w-36 my-4" alt="GDSC Logo" />
                         </div>
                         <div className="flex flex-col">
-                            <div className="text-white md:w-96 w-full font-Space-Grotesk md:font-normal text-xl text-center md:text-left mt-2">
+                            <div className="text-white md:w-96 w-full font-Space-Grotesk md:font-normal text-xl text-center md:text-left m-4">
                                 <span className="my-2 font-semibold text-3xl block">GDSC NITJ</span>
                                 Google Developer Student Clubs are university based community groups for students interested in Google developer technologies.
                             </div>

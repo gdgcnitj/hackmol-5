@@ -40,15 +40,10 @@ export default function SponsersPage() {
         link:'https://www.leading-learners.com/'
       },
       { 
-        image: 'https://www.echo3d.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fecho3D_logo.b341e4a8.png&w=1080&q=75',
-        label: 'ECHO 3D',
+        image: 'https://static.otta.com/uploads/images/company-logos/9759-TW0NmaH0VRaHyql3ANFckcAisdwrapOuXAS6qtkrtrc.png',
+        label: 'echo3d',
         link:'https://www.echo3d.com/'
       }
-      // { 
-      //   image: 'https://placewit.com/images/headerlogo.png',
-      //   label: 'PLACEWIT',
-      //   link:'https://placewit.com/'
-      // },
       
     ],
     upSkill:[

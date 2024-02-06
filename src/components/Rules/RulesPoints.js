@@ -19,7 +19,7 @@ function RulesPoint({ Desc, color, alignment, icon }) {
           borderStyle: "solid",
         }}
       >
-        <div className={`font-medium text-[9px] md:text-xl p-5 z-11 font-Space-Grotesk`}>
+        <div className={`font-medium text-xl   p-5 z-11 font-Space-Grotesk`}>
           {Desc} 
         </div>
       </div>
