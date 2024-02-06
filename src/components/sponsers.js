@@ -38,6 +38,11 @@ export default function SponsersPage() {
         image: 'https://lirp.cdn-website.com/a0c12d1a/dms3rep/multi/opt/LL+Full+Black+Favicon+Rounded+Square-1920w.png',
         label: 'LEADING LEARNERS',
         link:'https://www.leading-learners.com/'
+      },
+      { 
+        image: 'https://www.echo3d.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fecho3D_logo.b341e4a8.png&w=1080&q=75',
+        label: 'ECHO 3D',
+        link:'https://www.echo3d.com/'
       }
       // { 
       //   image: 'https://placewit.com/images/headerlogo.png',
