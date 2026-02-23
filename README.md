@@ -9,7 +9,7 @@ This website acts as the central hub for announcements, registrations, and event
 
 ## Live Site
 
-[![Live Site](https://img.shields.io/badge/Visit-HackMol%207-blue?style=for-the-badge)](https://hackmol5.vercel.app)
+[![Live Site](https://img.shields.io/badge/Visit-HackMol%205-blue?style=for-the-badge)](https://hackmol5.vercel.app)
 
 ## Contributors
 
